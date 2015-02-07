@@ -1,5 +1,10 @@
-h1 {color: F39999 font-size: 24px ;}
 
-body {background-color: BFF1F1 ;}
+@charset "UTF-8"; 
 
-p {color: F39999 font-size: 16px ;}
+
+
+h1 { color: F39999; font-size: 15pt; } 
+
+body { font-family: Verdana; font-size:12pt; background: BFF1F1; }
+
+p { color: F39999; font-size: 12pt; }
