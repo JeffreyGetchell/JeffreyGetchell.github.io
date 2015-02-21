@@ -1,0 +1,13 @@
+
+@charset "UTF-8"; 
+
+/* My cool css stuff actually begins here. */
+body { font-family: Optima; font-size:12pt; background: #50009F; }
+
+h1 { color: #E9EC21; font-size: 15pt; text-align: center; font-weight: 800; } 
+
+h2 { color: #FCFF3D; font-size: 14pt; text-align: center; }
+
+p { color: #9D9F08; text-align: center; }
+
+hr { color: black; width: 150px; }

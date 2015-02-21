@@ -46,15 +46,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
-@charset "UTF-8"; 
-
-/* My cool css stuff actually begins here. */
-body { font-family: Verdana; font-size:12pt; background: #BFF1F1; }
-
-
-h1 { color: #F39999; font-size: 15pt; } 
-
-p { color: #F39999; }
