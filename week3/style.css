@@ -10,8 +10,8 @@ h2 { color: rgba(252,255,61,.8); font-size: 14pt; text-align: center; font-famil
 
 /*h3 { }	
 h4 { }	*/
-
-p { color: rgba(157,159,11,.75); text-align: center; font-family: Georgia; }
+																/* line-height & margin stay same relative to size of font.*/
+p { color: rgba(157,159,11,.75); text-align: center; font-family: Georgia; font-size: 12pt; line-height: 1.5em; margin: 2em; }
 /*a { }*/
 
 hr { color: black; width: 200px; }
@@ -21,10 +21,11 @@ ul { margin-left: 5px; margin-top: 5px; padding: 0; float:left; }
 li {
 	display: inline;
 	background: rgba(233,236,33,1);
-	font-family: Optima;
+	font-family: Papyrus,Optima,Verdana;
 	font-weight: 600;
 	font-size: 14pt;
-	padding: 0px 5px;
+	border: 1px solid black;
+	padding: 5px 5px;
 	color: rgba(157,159,11,.75); 
 	text-decoration: none; }
 
