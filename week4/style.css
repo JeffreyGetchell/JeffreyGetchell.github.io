@@ -1,0 +1,185 @@
+
+/*@charset "UTF-8"; */
+
+/* My cool css stuff actually begins here. */
+body { width: 100% auto ; font-size:16px; font-family: 'Optima'; }
+
+h1 { color: rgba(233,236,33,1); font-size: 1.5em; text-align: center; font-weight: 800; font-family: 'Optima'; } 
+
+h2 { color: rgba(252,255,61,.8); font-size: 1.25em; text-align: center; font-family: 'Optima'; }
+
+/*h3 { }	*/
+/*h4 { }	*/
+
+/* line-height & margin stay same relative to size of font.*/ 
+/*Line-height also known as leading & letter-spacing known as kerning*/
+p { color: rgba(157,159,11,.75); 
+	text-align: center; 
+	font-family: Georgia; 
+	font-size: 16px; 
+	line-height: 1.5em; 
+	margin: 2em; 
+	letter-spacing: .65px;
+	max-width: 400px; 
+	border: 1px rgba(157,159,11,.25) solid;
+	padding: 3px; }
+/*a { }*/
+
+hr { color: black; width: 200px; }
+
+ul { margin-left: 5px; margin-top: 5px; padding: 0; float:left; }
+
+li {
+	display: inline;
+	background: rgba(233,236,33,1);
+	font-family: 'Optima',Verdana;
+	font-weight: 700;
+	font-size: 14pt;
+	border: 1px solid black;
+	padding: 5px 5px;
+	color: rgba(157,159,11,.75);
+	text-align: center; 
+	 }
+
+li a { text-decoration: none;  }
+
+nav { width: 380px;
+	  height: 380px;
+	  margin: 0px;
+	  float: left;
+	  background-color: rgba(0,0,0,.4); }	
+
+#master { width: 1265px; 
+		  margin: 0px auto;
+		  float: left;
+		  background-color: rgba(80,0,159,1);
+		  }
+
+#slogan { color: rgba(157,159,11,.75); 
+		  text-align: center; 
+		  font-family: Georgia; 
+		  font-size: 14pt; 
+		  background-color: none; 
+		  font-style: italic; }
+ 
+#leftcontainer { width: 490px; 	
+				 height: 800px; 
+				 margin: 0; 
+				 float: left; 
+				 /*background-color: rgb(0,0,0); */
+				}
+	
+#largelogo { width: 305px;
+			height: 305px;
+			margin: 0;
+			float: left;
+			background-color: rgba(135,33,236,.5); }	
+
+#grayarea {  width: 185px;
+				height: 189px;
+				margin: 0;
+				float: left;
+				background-color: rgba(159,61,255,.85); }	
+							
+#moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 yellow;
+  margin: 50px;
+  float: left; }
+
+#littlelogo { width: 185px;
+				height: 116px;
+				margin: 0;
+				float: left;
+				/*background-color: rgba(250,0,0,.75); */
+			}
+
+#textbox { width: 490px;
+				height: 495px;
+				margin: 0;
+				float: left;
+				background-color: rgba(135,33,236,.25); }
+
+#rightcontainer { width: 765px;
+				height: 800px;
+				margin: 0;
+				float: left;
+				/*background-color: rgba(135,33,236,.25); */
+				} 
+
+
+#solidbox1 { width: 380px;
+				height: 380px;
+				margin: 0;
+				float: left;
+				/*background-color: rgba(0,0,0,.25); */
+			}
+
+#circle1 { width: 100px;
+	height: 100px;
+	background: rgba(252,255,61,.75);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 100%; 
+	margin: 25px 10px 10px 25px;
+	padding: 15px; 
+	float: left; }
+
+#circle2 { width: 100px;
+	height: 100px;
+	background: rgba(252,255,61,.75);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 100%; 
+	margin: 25px 10px 10px 50px;
+	padding: 15px; 
+	float: left; }		
+
+#circle3 { width: 100px;
+	height: 100px;
+	background: rgba(252,255,61,.75);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 100%; 
+	margin: 10px 10px 10px 120px;
+	padding: 15px; 
+	float: left; }		
+
+
+#imagebox { width: 380px;
+				height: 380px;
+				margin: 0;
+				float: left;
+				background-color: rgba(0,0,0,.5); }
+				
+
+#solidbox2 { width: 380px;
+				height: 380px;
+				margin: 0;
+				float: left;
+				/*background-color: rgba(0,0,0,.75); */
+			}
+
+#footer { width: 765px;
+			height: 38px;
+			margin: 0;
+			float: left;
+			background-color: rgb(0,0,0); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
