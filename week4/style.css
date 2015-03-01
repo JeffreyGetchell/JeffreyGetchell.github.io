@@ -5,7 +5,7 @@
 body { width: 100% auto ; 
 	font-size:16px; 
 	font-family: 'Optima'; 
-	background-image: url(goldenspiral.png) ;
+	background-image: url(goldenspiral.png);
 	float: left; }
 
 h1 { color: rgba(233,236,33,1); 
@@ -61,12 +61,12 @@ nav { width: 382px;
 	  height: 380px;
 	  margin: 0px;
 	  float: left;
-	  background-color: rgba(0,0,0,.4); }	
+	  background-color: rgba(80,0,159,1); }	
 
 #master { width: 1265px; 
 		  margin: 0px auto;
 		  float: left;
-		  background-color: rgba(80,0,159,1);
+		  /*background-color: rgba(80,0,159,1);*/
 		  }
 
 #slogan { color: rgba(157,159,11,.75); 
@@ -87,27 +87,28 @@ nav { width: 382px;
 			height: 305px;
 			margin: 0;
 			float: left;
-			/*background-color: rgba(135,33,236,.5); */
-		}	
+			background-color: rgba(80,0,159,.80);
+			}	
 
 #grayarea {  width: 185px;
 				height: 189px;
 				margin: 0;
 				float: left;
-				background-color: rgba(159,61,255,.85); }	
+				background-color: rgba(80,0,159,.75); }	
 							
 #moon {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   box-shadow: 15px 5px 0 5px rgba(233,236,33,1);
-  margin: 50px;
+  margin: 75px 50px 50px ;
   float: left; }
 
 #littlelogo { width: 185px;
 				height: 116px;
 				margin: 0;
 				float: left;
+				background-image: url(littlelogo.jpg);
 				/*background-color: rgba(250,0,0,.75); */
 			}
 
@@ -115,7 +116,8 @@ nav { width: 382px;
 				height: 495px;
 				margin: 0;
 				float: left;
-				background-color: rgba(135,33,236,.25); }
+				background-color: rgba(80,0,159,.85);
+				}
 
 #rightcontainer { width: 765px;
 				height: 800px;
@@ -129,7 +131,7 @@ nav { width: 382px;
 				height: 380px;
 				margin: 0;
 				float: left;
-				background-color: rgba(159,61,255,.85); 
+				background-color: rgba(80,0,159,.90); 
 			}
 
 #circle1 { width: 100px;
@@ -167,14 +169,16 @@ nav { width: 382px;
 				height: 380px;
 				margin: 0;
 				float: left;
-				background-color: rgba(0,0,0,.5); }
+				background-color: rgba(80,0,159,90)); 
+			 background-image: url(myjazzcover.jpg);
+			}
 				
 
 #solidbox2 { width: 382px;
 				height: 380px;
 				margin: 0;
 				float: left;
-				background-color: rgba(159,61,255,.85); 
+				background-color: rgba(80,0,159,.95); 
 			}
 
 #footer { width: 770px;
