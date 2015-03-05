@@ -5,7 +5,7 @@
 body { width: 100% auto ; 
 	font-size:16px; 
 	font-family: 'Optima'; 
-	background-image: url(goldenspiral1.jpg);
+	background-image: url(goldenspiral1a.jpg);
 	float: left; }
 
 h1 { color: rgba(233,236,33,1); 
@@ -123,13 +123,13 @@ img { display: block;
 				float: left;
 				background-color: rgba(80,0,159,.75); }	
 							
-#moon {
+/*#moon {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   box-shadow: 15px 5px 0 5px rgba(233,236,33,1);
   margin: 75px 50px 50px ;
-  float: left; }
+  float: left; }*/
 
 #littlelogo { width: 185px;
 				height: 116px;
