@@ -5,7 +5,7 @@
 body { width: 100% auto ; 
 	font-size:16px; 
 	font-family: 'Optima'; 
-	background-image: url(goldenspiral1a.jpg);
+	background : url(goldenspiral.png) no-repeat center center;
 	float: left; }
 
 h1 { color: rgba(233,236,33,1); 
@@ -83,14 +83,15 @@ footer { width: 770px;
 		}
 
 img { display: block;
-		margin: 0 auto;}
+		margin: 0 auto;
+		float: left; }
 
 .center { text-align: center;
 		padding-top: 10px; }
 
 
 
-#master { width: 1265px; 
+#master { width: 100%; 
 		  margin: 0px auto;
 		  float: left;
 		  /*background-color: rgba(80,0,159,1);*/
