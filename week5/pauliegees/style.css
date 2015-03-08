@@ -20,7 +20,7 @@ h1 { color: rgba(61,92,168,1);
 		font-size: 1.618em; 		
 		font-weight: 800; } 
 
-h2 { color: white; font-size: 1.25em; font-style: italic;}
+h2 { color: gray; font-size: 1.25em; font-style: italic;}
 
 p { color: rgba(242,246,141,1); 
 	text-align: center; 
@@ -33,7 +33,32 @@ p { color: rgba(242,246,141,1);
 	/*max-width: 400px; */
 	/*border: 1px rgba(157,159,11,.25) solid;*/
 	padding: 1px; 
+	float: left;
 	}
+
+hr { color: black; width: 150px; }
+	 
+
+
+#master { width: 960px; 
+		  height: 1550px;
+		  margin: 0px auto;
+		  border: 2px solid black;
+		  background: url(bg.jpg) no-repeat center;
+		  opacity: 0.75;
+		  box-shadow: 10px;
+		  /*float: left;*/
+		 /* background-color: rgba(242,246,142,1);*/
+		  }
+
+header { /*background-color: rgba(0,0,0,.3);*/
+		width: 100%;
+	  	height: auto;
+	  	margin: 0px auto;
+	  	float: left; 
+	  	background-color: rgba(115,116,67,.5);
+	  	/*border: black solid 1px;*/
+	  	}
 
 nav { width: 100%;
 	  height: 100px;
@@ -66,32 +91,24 @@ li a { text-decoration: none;
 		border: black solid 1px;
 		float: left;
 		/*margin-top: 10px;*/
-	 }	 
+	 }
 
-header { background-color: rgba(0,0,0,.3);
+footer { /*background-color: white;*/
 		width: 100%;
 	  	height: auto;
-	  	margin: 0px auto;
-	  	float: left; 
-	  	/*border: black solid 1px;*/
-	  	}
+	  	margin: 1150px 0px 0px;
+		font-style: italic;
+		font-family: Georgia, serif;
+		/*padding: 10px;*/
+		/*margin-bottom: -10px; */
+		float: left; }
 
 
-hr { color: black; width: 150px; }
-
-#master { width: 960px; 
-		  height: 1550px;
-		  margin: 0px auto;
-		  border: 2px solid black;
-		  background: url(bg.jpg) no-repeat center;
-		  /*float: left;*/
-		 /* background-color: rgba(242,246,142,1);*/
-		  }
-#cone {
+/*#cone {
   width: 0px;
   height: 0px;
   /*originalally 70x70x100 */
-  border-left: 490px solid transparent;
+ /* border-left: 490px solid transparent;
   border-right: 490px solid transparent;
   border-top: 700px solid white;
   -moz-border-radius: 50%;
@@ -99,7 +116,7 @@ hr { color: black; width: 150px; }
   border-radius: 50%;
  	float: left;
  	margin-top: 40px ;  
- 	}		  
+ 	}*/		 
 
   
 		  
