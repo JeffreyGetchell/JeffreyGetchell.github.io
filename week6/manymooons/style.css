@@ -6,6 +6,7 @@ body { width: 100% auto ;
 	font-size:16px; 
 	font-family: 'Optima'; 
 	background : url(goldenspiral.png) no-repeat center center;
+	background-color: rgba(80,0,159,.35); 
 	float: left; }
 
 h1 { color: rgba(233,236,33,1); 
@@ -13,8 +14,8 @@ h1 { color: rgba(233,236,33,1);
 	text-align: center; 
 	font-weight: 800; 
 	font-family: 'Trade Winds','Optima'; 
-	letter-spacing: -1px;
-	text-shadow: 2px 2px 2px #aaa; } 
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #000; } 
 
 h2 { color: rgba(252,255,61,.8); 
 	font-size: 1.25em; 
@@ -115,14 +116,15 @@ img { display: block;
 			height: 305px;
 			margin: 0;
 			float: left;
-			background-color: rgba(80,0,159,.80);
+			/*background-color: rgba(80,0,159,.80);*/
 			}	
 
 #grayarea {  width: 185px;
 				height: 189px;
 				margin: 0;
 				float: left;
-				background-color: rgba(80,0,159,.75); }	
+				/*background-color: rgba(80,0,159,.75); */
+			}	
 							
 /*#moon {
   width: 80px;
@@ -137,7 +139,7 @@ img { display: block;
 				margin: 0;
 				float: left;
 				/*background-image: url(littlelogo.jpg);*/
-				background-color: rgba(80,0,159,.65); 
+				/*background-color: rgba(80,0,159,.65); */
 			}
 
 #textbox { width: 490px;
