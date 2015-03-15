@@ -4,7 +4,7 @@ body { width: 100% auto ;
 		font-family: 'Optima'; 
 		font-size:16px; 
 		text-align: center;
-		background: url(woodgraindark1.jpg) center; 
+		/*background: url(woodgraindark1.jpg) center; */
 		padding: 1%;
  		margin: 0px;
 		/*float: left;*/
@@ -104,25 +104,10 @@ footer { /*background-color: white;*/
 		/*margin-bottom: -10px; */
 		float: left; }
 
-/*.menubutton {
-			/*background: ; */
-			padding: 5px 10px; 
-			/*color: #ff9933; */
-			margin: 2px; 
-			text-decoration: none; 
-			font-weight:bold; 
-			border-bottom: 2px solid #333; 
-			border-right: 2px solid #333; 
-			cursor: pointer;
-			box-shadow: 3px 3px 3px #000;
-			-webkit-box-shadow: 3px 3px 3px #000;
-			-moz-box-shadow: 3px 3px 3px #000;
-			border-radius: 10px 30px; }*/
-
 a:hover { text-decoration:underline; 
 			color: rgba( 0,0,0,.75); 
 		 }
-
+/*css cone shape needs to used as a background image when very large becuase its all margins use relative positions.*/
 /*#cone {
   width: 0px;
   height: 0px;
@@ -136,6 +121,14 @@ a:hover { text-decoration:underline;
  	float: left;
  	margin-top: 40px ;  
  	}*/		 
+
+.clearfix:after { visibility: hidden;
+					display: block;
+					font-size: 0;
+					content: "" ;
+					clear: both;
+					height: 0; }
+
 
   
 		  
