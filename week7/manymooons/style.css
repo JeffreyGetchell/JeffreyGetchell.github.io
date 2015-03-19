@@ -1,0 +1,247 @@
+
+/*@charset "UTF-8"; */
+
+/* My cool css stuff actually begins here. */
+body { width: 100% auto ; 
+	font-size:16px; 
+	font-family: 'Optima'; 
+	background : url(goldenspiral.png) no-repeat center center;
+	background-color: rgba(80,0,159,.35); 
+	float: left; }
+
+h1 { color: rgba(233,236,33,1); 
+	font-size: 3.236em; 
+	text-align: center; 
+	font-weight: 800; 
+	font-family: 'Trade Winds','Optima'; 
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #000; 
+	margin-top: 10%;
+	 }
+
+h2 { color: rgba(252,255,61,.8); 
+	font-size: 1.25em; 
+	text-align: center; 
+	font-family: 'Optima','cursive';
+	margin-top: 12px;
+	 }
+
+/*h3 { }	*/
+/*h4 { }	*/
+
+/* line-height & margin stay same relative to size of font.*/ 
+/*Line-height also known as leading & letter-spacing known as kerning*/
+p { color: rgba(157,159,11,.75); 
+	text-align: center; 
+	font-family: Georgia; 
+	font-size: 16px; 
+	line-height: 1.5em; 
+	margin: 2em; 
+	letter-spacing: .65px;
+	max-width: 400px; 
+	border: 1px rgba(157,159,11,.25) solid;
+	padding: 3px; }
+/*a { }*/
+
+a:link { color: rgba(252,255,61,.8); text-decoration:none; }
+a:hover { text-decoration: underline; 
+			color: rgba(252,255,61,.5); }
+
+hr { color: black; 
+	width: 80%;
+	margin-top: -2px; 
+	}
+
+ul { margin-left: 5px; 
+	margin-top: 15px; 
+	padding: 0; 
+	float:left; }
+
+li {
+	display: inline;
+	background: rgba(233,236,33,1);
+	font-family: 'Optima',Verdana;
+	font-weight: 700;
+	font-size: 1.25em;
+	border: 1px solid black;
+	padding-top: 10px;
+	color: rgba(157,159,11,.75);
+	text-align: center; 
+	 }
+
+li a { text-decoration: none;
+		/*background-color: white; */
+		padding: 35px 30px 25px;
+		float: left;
+		/*margin-top: 10px;*/
+	 }
+
+nav { width: 382px;
+	  height: 380px;
+	  margin: 0px;
+	  float: left;
+	  background-color: rgba(80,0,159,1); }		
+
+footer { width: 770px;
+			height: 38px;
+			margin: 0;
+			float: left;
+			background-color: rgba(0,0,0,.65); 
+			font-style: italic;
+			font-family: Georgia, serif;
+			text-align: center;
+			padding: .25em 0px 0px; 
+		}
+
+img { display: block;
+		margin: 0 auto;
+		float: left; }
+
+.center { text-align: center;
+		padding-top: 10px; }
+
+
+
+#master { width: 100%; 
+		  margin: 0px auto;
+		  float: left;
+		  /*background-color: rgba(80,0,159,1);*/
+		  }
+
+#slogan { color: rgba(157,159,11,.75); 
+		  text-align: center; 
+		  font-family: Georgia; 
+		  font-size: 14pt; 
+		  background-color: none; 
+		  font-style: italic; }
+ 
+#leftcontainer { width: 490px; 	
+				 height: 800px; 
+				 margin: 0; 
+				 float: left; 
+				 /*background-color: rgba(0,0,0,.5); */
+				}
+	
+#largelogo { width: 100%;
+			height: 305px;
+			margin: 0;
+			float: left;
+			/*background-color: rgba(80,0,159,.80);*/
+			}	
+
+/*#grayarea {  width: 185px;
+				height: 189px;
+				margin: 0;
+				float: left;
+				background-color: rgba(80,0,159,.75); 
+			}*/	
+							
+/*#moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 5px 0 5px rgba(233,236,33,1);
+  margin: 75px 50px 50px ;
+  float: left; }*/
+
+#littlelogo { width: 185px;
+				height: 116px;
+				margin: 0;
+				float: left;
+				/*background-image: url(littlelogo.jpg);*/
+				/*background-color: rgba(80,0,159,.65); */
+			}
+
+#textbox { width: 490px;
+		   height: 495px;
+		   margin: 0;
+		   float: left;
+		   /*background-color: rgba(80,0,159,.85);*/
+		   }
+
+#welcometext { background-color: rgba(80,0,159,.75); 
+				padding: 15px; 
+			 	 }
+
+#welcomeh2 { background-color: rgba(80,0,159,.75);
+				max-width: 400px; 
+				margin-left: 2em; }
+
+#rightcontainer { width: 765px;
+				height: 800px;
+				margin: 0;
+				float: left;
+				/*background-color: rgba(135,33,236,.25); */
+				} 
+
+
+#solidbox1 { width: 382px;
+				height: 380px;
+				margin: 0;
+				float: left;
+				background-color: rgba(80,0,159,.90); 
+			}
+
+#circle1 { width: 100px;
+	height: 100px;
+	background: rgba(252,255,61,.75);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 100%; 
+	margin: 25px 10px 10px 25px;
+	padding: 15px; 
+	float: left; }
+
+#circle2 { width: 100px;
+	height: 100px;
+	background: rgba(252,255,61,.75);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 100%; 
+	margin: 25px 10px 10px 50px;
+	padding: 15px; 
+	float: left; }		
+
+#circle3 { width: 100px;
+	height: 100px;
+	background: rgba(252,255,61,.75);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 100%; 
+	margin: 10px 10px 10px 120px;
+	padding: 15px; 
+	float: left; }		
+
+
+#imagebox { width: 382px;
+				height: 380px;
+				margin: 0;
+				float: left;
+				background-color: rgba(80,0,159,90)); 
+			 background-image: url(myjazzcover.jpg);
+			}
+				
+
+#solidbox2 { width: 382px;
+				height: 380px;
+				margin: 0;
+				float: left;
+				background-color: rgba(80,0,159,.95); 
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
