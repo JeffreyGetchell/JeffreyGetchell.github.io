@@ -5,9 +5,24 @@
 body { width: 100% auto ; 
 	font-size:16px; 
 	font-family: 'Optima'; 
-	background : url(goldenspiral.png) no-repeat center center;
-	background-color: rgba(80,0,159,.35); 
-	float: left; }
+	 }
+
+section { height: 100vh; 
+			/*opacity:.5;*/
+		}
+/*section img { display: block;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		float: left; }
+*/
+#imagebox img { display: block;
+		width: 75%;
+		height: auto;
+		margin: 0 auto;
+		float: left; 
+		/*margin: 10px; */
+	}
 
 h1 { color: rgba(233,236,33,1); 
 	font-size: 3.236em; 
@@ -22,11 +37,17 @@ h1 { color: rgba(233,236,33,1);
 h2 { color: rgba(252,255,61,.8); 
 	font-size: 1.25em; 
 	text-align: center; 
-	font-family: 'Optima','cursive';
+	font-family: 'Optima',sans-serif;
 	margin-top: 12px;
 	 }
 
-/*h3 { }	*/
+h3 { color: rgba(252,255,61,.8); 
+	 font-size: 1em; 
+	 text-align: center; 
+	 font-family: 'Optima',sans-serif; 
+	 /*padding: 10px;*/
+	 margin: 0;
+	 float: left; }	
 /*h4 { }	*/
 
 /* line-height & margin stay same relative to size of font.*/ 
@@ -43,16 +64,17 @@ p { color: rgba(157,159,11,.75);
 	padding: 3px; }
 /*a { }*/
 
-a:link { color: rgba(252,255,61,.8); text-decoration:none; }
+a:link { color: rgba(36, 9, 76,1); text-decoration:none; }
 a:hover { text-decoration: underline; 
-			color: rgba(252,255,61,.5); }
+			color: rgba(157,159,11,.75); }
 
 hr { color: black; 
 	width: 80%;
 	margin-top: -2px; 
 	}
 
-ul { margin-left: 5px; 
+ul { 
+	margin-left: 25px; 
 	margin-top: 15px; 
 	padding: 0; 
 	float:left; }
@@ -71,7 +93,7 @@ li {
 
 li a { text-decoration: none;
 		/*background-color: white; */
-		padding: 35px 30px 25px;
+		padding: 20px 25px 30px -5px;
 		float: left;
 		/*margin-top: 10px;*/
 	 }
@@ -80,7 +102,8 @@ nav { width: 382px;
 	  height: 380px;
 	  margin: 0px;
 	  float: left;
-	  background-color: rgba(80,0,159,1); }		
+	  /*background-color: rgba(80,0,159,1); */
+	}		
 
 footer { width: 770px;
 			height: 38px;
@@ -93,20 +116,30 @@ footer { width: 770px;
 			padding: .25em 0px 0px; 
 		}
 
-img { display: block;
-		margin: 0 auto;
-		float: left; }
 
-.center { text-align: center;
-		padding-top: 10px; }
+/*img h3 { clear: all; 
+			float: left;}*/
 
-
-
-#master { width: 100%; 
+.master { width: 100%; 
 		  margin: 0px auto;
 		  float: left;
 		  /*background-color: rgba(80,0,159,1);*/
 		  }
+
+.center { text-align: center;
+		padding-top: 10px; }
+
+.circlemargins { margin: 10px 0px 0px -10px; }
+
+#intro {
+		 background-color: rgba(36,9,76,1); 
+		/*background : url(moon1a.png) no-repeat center center; */
+		/*opacity: 20%; */
+		 }
+#portraitz { background-color: rgba(80,0,159,1); }
+#designz { background-color: rgba(135,33,236,1); }
+#about { background-color: rgba(157,159,11,1);}
+
 
 #slogan { color: rgba(157,159,11,.75); 
 		  text-align: center; 
@@ -154,6 +187,7 @@ img { display: block;
 
 #textbox { width: 490px;
 		   height: 495px;
+		   /*padding-top: 75px;*/
 		   margin: 0;
 		   float: left;
 		   /*background-color: rgba(80,0,159,.85);*/
@@ -165,7 +199,9 @@ img { display: block;
 
 #welcomeh2 { background-color: rgba(80,0,159,.75);
 				max-width: 400px; 
-				margin-left: 2em; }
+				margin-left: 2em; 
+				margin-top: 15%;
+			}
 
 #rightcontainer { width: 765px;
 				height: 800px;
@@ -179,12 +215,12 @@ img { display: block;
 				height: 380px;
 				margin: 0;
 				float: left;
-				background-color: rgba(80,0,159,.90); 
+				/*background-color: rgba(80,0,159,.90); */
 			}
 
-#circle1 { width: 100px;
-	height: 100px;
-	background: rgba(252,255,61,.75);
+#circle1 { width: 50px;
+	height: 50px;
+	background: rgba(233,236,33,1);
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 100%; 
@@ -192,9 +228,9 @@ img { display: block;
 	padding: 15px; 
 	float: left; }
 
-#circle2 { width: 100px;
-	height: 100px;
-	background: rgba(252,255,61,.75);
+#circle2 { width: 50px;
+	height: 50px;
+	background: rgba(233,236,33,1);
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 100%; 
@@ -202,23 +238,24 @@ img { display: block;
 	padding: 15px; 
 	float: left; }		
 
-#circle3 { width: 100px;
-	height: 100px;
-	background: rgba(252,255,61,.75);
+#circle3 { width: 50px;
+	height: 50px;
+	background: rgba(233,236,33,1);
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 100%; 
-	margin: 10px 10px 10px 120px;
+	margin: 10px 10px 10px 100px;
 	padding: 15px; 
 	float: left; }		
 
 
 #imagebox { width: 382px;
 				height: 380px;
+				/*padding-bottom: 12px;*/
 				margin: 0;
 				float: left;
-				background-color: rgba(80,0,159,90)); 
-			 background-image: url(myjazzcover.jpg);
+				/*background-color: rgba(80,0,159,90); */
+			 /*background-image: url(pgscreenshot2.jpg);*/
 			}
 				
 
@@ -226,12 +263,15 @@ img { display: block;
 				height: 380px;
 				margin: 0;
 				float: left;
-				background-color: rgba(80,0,159,.95); 
+				/*background-color: rgba(80,0,159,.95); */
 			}
 
-
-
-
+.clearfix:after { visibility: hidden;
+					display: block;
+					font-size: 0;
+					content: " " ;
+					clear: both;
+					height: 0; }
 
 
 
