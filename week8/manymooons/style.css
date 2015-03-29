@@ -2,34 +2,80 @@
 /*@charset "UTF-8"; */
 
 /* My cool css stuff actually begins here. */
-body { width: 100% auto ; 
+body { width: 100% ; 
+	margin: 0 auto;	
 	font-size:16px; 
 	font-family: 'Optima'; 
 	/*background-image: -webkit-radial-gradient(left top, ellipse farthest-side, #9D9F08 0%, #50009F 100%);*/
 	 }
-
-section { height: 100vh; 
-			/*opacity:.5;*/
+header { width: 100%;
+		height: 30%; 
+		float: left;
+		border-bottom: 1px solid gold ;
+		position: fixed;
+		/*background-color: red; */
 		}
-/*section img { display: block;
-		width: 100%;
-		height: auto;
-		margin: 0 auto;
-		float: left; }
-*/
-#imagebox img { display: block;
+
+nav { width:38%;
+	  height: 100%;
+	  margin: 0;
+	  float: right;
+	 /* background-color:white ; */
+	}		
+ul { display: block;
+	/*width: 367px;*/
+	margin: 0 auto;
+	/*margin-left: 25px; */
+	margin-top: 3%; 
+	/*padding: 0; 
+	float:left;*/
+	 }
+
+li {
+	display: inline-block;
+	/*background: rgba(233,236,33,1);*/
+	font-family: 'Optima',Verdana;
+	font-weight: 700;
+	font-size: 1.25em;
+	/*border: 1px solid black;*/
+	/*padding: 0.5em;*/
+	/*color: rgba(233,236,33,1);*/
+	text-align: center; 
+	margin: 1% ;
+	 }
+
+li a { text-decoration: none;
+		color: rgba(233,236,33,1);
+		/*background-color: red; */
+		/*padding: 20px 25px 30px -5px;*/
+		/*float: left;*/
+		/*margin-top: 10px;*/
+	 }			
+a:link { 
+	/*color: rgba(233,236,33,1); */
+	text-decoration:none; 
+}
+a:hover { text-decoration: underline; 
+			color: rgba(157,159,11,.75); }
+
+hr { color: black; 
+	width: 80%;
+	margin-top: -2px; 
+	}
+
+/*#imagebox img { display: block;
 		width: 75%;
 		height: auto;
 		margin: 0 auto;
 		float: left; 
-		/*margin: 10px; */
-	}
+		margin: 10px; 
+	} */
 
 h1 { color: rgba(233,236,33,1); 
 	font-size: 3.236em; 
 	text-align: center; 
 	font-weight: 800; 
-	font-family: 'Trade Winds','Optima'; 
+	font-family: 'Trade Winds','cursive'; 
 	letter-spacing: 2px;
 	text-shadow: 2px 2px 2px #000; 
 	margin-top: 10%;
@@ -53,7 +99,7 @@ h3 { color: rgba(252,255,61,.8);
 
 /* line-height & margin stay same relative to size of font.*/ 
 /*Line-height also known as leading & letter-spacing known as kerning*/
-p { color: rgba(157,159,11,.75); 
+p { color: rgba(157,159,11,1); 
 	text-align: center; 
 	font-family: Georgia; 
 	font-size: 16px; 
@@ -65,54 +111,26 @@ p { color: rgba(157,159,11,.75);
 	padding: 3px; }
 /*a { }*/
 
-a:link { color: rgba(36, 9, 76,1); text-decoration:none; }
-a:hover { text-decoration: underline; 
-			color: rgba(157,159,11,.75); }
 
-hr { color: black; 
-	width: 80%;
-	margin-top: -2px; 
-	}
+section { height: 100vh; 
+			overflow: auto;	
+		}
+/*section img { display: block;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		float: left; }
+*/
 
-ul { 
-	margin-left: 25px; 
-	margin-top: 15px; 
-	padding: 0; 
-	float:left; }
-
-li {
-	display: inline;
-	background: rgba(233,236,33,1);
-	font-family: 'Optima',Verdana;
-	font-weight: 700;
-	font-size: 1.25em;
-	border: 1px solid black;
-	padding-top: 10px;
-	color: rgba(157,159,11,.75);
-	text-align: center; 
-	 }
-
-li a { text-decoration: none;
-		/*background-color: white; */
-		padding: 20px 25px 30px -5px;
-		float: left;
-		/*margin-top: 10px;*/
-	 }
-
-nav { width: 382px;
-	  height: 380px;
-	  margin: 0px;
-	  float: left;
-	  /*background-color: rgba(80,0,159,1); */
-	}		
 
 footer { width: 100%;
 			height: 150px;
 			margin: 0 auto;
 			float: left;
-			background-color: rgba(255,255,255,.65); 
+			background-color: rgba(36,9,76,1) ; 
 			font-style: italic;
 			font-family: Georgia, serif;
+			color:  rgba(157,159,11,1);
 			text-align: center;
 			padding: .25em 0px 0px; 
 
@@ -123,6 +141,7 @@ footer { width: 100%;
 			float: left;}*/
 
 .master { width: 100%; 
+		  height: 100%;	
 		  margin: 0px auto;
 		  float: left;
 		  /*background-color: rgba(80,0,159,1);*/
@@ -131,17 +150,34 @@ footer { width: 100%;
 .center { text-align: center;
 		padding-top: 10px; }
 
-.circlemargins { margin: 10px 0px 0px -10px; }
+/*.circlemargins { margin: 10px ; }*/
+
+.sectionh1 {  color: rgba(233,236,33,1); 
+	font-size: 3.236em; 
+	text-align: center; 
+	font-weight: 800; 
+	font-family:'Optima'; 
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #000; 
+	margin-top: 10%;}
+	
+.button { width: 12%;
+			height: 10%;
+			/*background: rgba(233,236,33,1);*/
+			/*margin: 0 auto;*/
+			padding: 15px; 
+			/*float: left; */
+		}	
 
 #intro { background: url(moon1a.png) no-repeat center center; 
 		 background-color: rgba(36,9,76,1); 		
 		/*opacity: 20%; */
 		 }
-#portraitz { background: url(moon2a.png) no-repeat center center;
-			background-color: rgba(80,0,159,1); }
-
 #designz { background: url(moon3.png) no-repeat center center;
-			background-color: rgba(135,33,236,1); }
+			background-color: rgba(65,16,137,1); }
+			
+#portraitz { background: url(moon2a.png) no-repeat center center;
+			background-color: rgba(94,23,197,1); }			
 
 #about { background: url(moon4.png) no-repeat center center;	
 		background-color: rgba(157,159,11,1);
@@ -154,123 +190,83 @@ footer { width: 100%;
 		  background-color: none; 
 		  font-style: italic; }
  
-#leftcontainer { width: 490px; 	
+/*#leftcontainer { width: 490px; 	
 				 height: 800px; 
 				 margin: 0; 
 				 float: left; 
-				 /*background-color: rgba(0,0,0,.5); */
-				}
+				 background-color: rgba(0,0,0,.5); 
+				} */
 	
-#largelogo { width: 100%;
-			height: 305px;
-			margin: 0;
+#largelogo { width: 60%;
+			height: 100%;
 			float: left;
+			margin: 0;
+			border-right: 1px solid gold;
+			/*background-image: url(manymooonzlogo1b.png);*/
 			/*background-color: rgba(80,0,159,.80);*/
 			}	
 
-/*#grayarea {  width: 185px;
-				height: 189px;
-				margin: 0;
-				float: left;
-				background-color: rgba(80,0,159,.75); 
-			}*/	
 							
-/*#moon {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  box-shadow: 15px 5px 0 5px rgba(233,236,33,1);
-  margin: 75px 50px 50px ;
-  float: left; }*/
 
-#littlelogo { width: 185px;
+/*#littlelogo { width: 185px;
 				height: 116px;
 				margin: 0;
 				float: left;
-				/*background-image: url(littlelogo.jpg);*/
-				/*background-color: rgba(80,0,159,.65); */
-			}
+				background-image: url(littlelogo.jpg);
+				background-color: rgba(80,0,159,.65); 
+			} */
 
-#textbox { width: 490px;
+/*#textbox { width: 490px;
 		   height: 495px;
-		   /*padding-top: 75px;*/
+		   padding-top: 75px;
 		   margin: 0;
 		   float: left;
-		   /*background-color: rgba(80,0,159,.85);*/
-		   }
+		   background-color: orange;
+		   } */
 
-#welcometext { background-color: rgba(80,0,159,.75); 
+/*#welcometext { background-color: rgba(80,0,159,1); 
 				padding: 15px; 
 			 	 }
-
-#welcomeh2 { background-color: rgba(80,0,159,.75);
+*/
+#welcomeh2 { background-color: rgba(80,0,159,1);
 				max-width: 400px; 
 				margin-left: 2em; 
 				margin-top: 15%;
 			}
 
-#rightcontainer { width: 765px;
+/*#rightcontainer { width: 765px;
 				height: 800px;
 				margin: 0;
 				float: left;
-				/*background-color: rgba(135,33,236,.25); */
+				background-color: green ; 
 				} 
+*/
 
-
-#solidbox1 { width: 382px;
+/*#solidbox1 { width: 382px;
 				height: 380px;
 				margin: 0;
 				float: left;
-				/*background-color: rgba(80,0,159,.90); */
+				background-color: red ; 
 			}
-
-#circle1 { width: 50px;
-	height: 50px;
-	background: rgba(233,236,33,1);
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 100%; 
-	margin: 25px 10px 10px 25px;
-	padding: 15px; 
-	float: left; }
-
-#circle2 { width: 50px;
-	height: 50px;
-	background: rgba(233,236,33,1);
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 100%; 
-	margin: 25px 10px 10px 50px;
-	padding: 15px; 
-	float: left; }		
-
-#circle3 { width: 50px;
-	height: 50px;
-	background: rgba(233,236,33,1);
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 100%; 
-	margin: 10px 10px 10px 100px;
-	padding: 15px; 
-	float: left; }		
+*/
 
 
-#imagebox { width: 382px;
+/*#imagebox { width: 382px;
 				height: 380px;
-				/*padding-bottom: 12px;*/
+				padding-bottom: 12px;
 				margin: 0;
 				float: left;
-				/*background-color: rgba(80,0,159,90); */
-			 /*background-image: url(pgscreenshot2.jpg);*/
-			}
+				background-color: rgba(80,0,159,90); 
+			 background-image: url(pgscreenshot2.jpg);
+			} */
 				
 
-#solidbox2 { width: 382px;
+/*#solidbox2 { width: 382px;
 				height: 380px;
 				margin: 0;
 				float: left;
-				/*background-color: rgba(80,0,159,.95); */
-			}
+				background-color: rgba(80,0,159,.95); 
+			} */
 
 .clearfix:after { visibility: hidden;
 					display: block;
