@@ -9,25 +9,24 @@ body { width: 100% ;
 	/*background-image: -webkit-radial-gradient(left top, ellipse farthest-side, #9D9F08 0%, #50009F 100%);*/
 	 }
 header { width: 100%;
-		height: 38.2%; 
+		height: 30%; 
 		float: left;
-		/*border-bottom: 1px solid gold ;*/
+		border-bottom: 1px solid gold ;
 		position: fixed;
 		/*background-color: red; */
 		}
 
-nav { width:50%;
-	  /*height: 100%;*/
-	  margin: 1%;
-	  float: left;
-	  clear: both;
+nav { width:38%;
+	  height: 100%;
+	  margin: 0;
+	  float: right;
 	 /* background-color:white ; */
 	}		
 ul { display: block;
 	/*width: 367px;*/
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	/*margin-left: 25px; */
-	/*margin-top: 3%; */
+	margin-top: 3%; 
 	/*padding: 0; 
 	float:left;*/
 	 }
@@ -59,8 +58,7 @@ a:link {
 a:hover { text-decoration: underline; 
 			color: rgba(157,159,11,.75); }
 
-hr { 
-	/*color: red; */
+hr { color: black; 
 	width: 80%;
 	margin-top: -2px; 
 	}
@@ -117,13 +115,12 @@ p { color: rgba(157,159,11,1);
 section { height: 100vh; 
 			overflow: auto;	
 		}
-img { 
-		/*display: block;*/
-		width: 60%;
-		/*height: auto;*/
-		/*margin: 0 auto;*/
+/*section img { display: block;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
 		float: left; }
-
+*/
 
 
 footer { width: 100%;
@@ -162,7 +159,7 @@ footer { width: 100%;
 	font-family:'Optima'; 
 	letter-spacing: 2px;
 	text-shadow: 2px 2px 2px #000; 
-	margin-top: 20%;}
+	margin-top: 10%;}
 	
 .button { width: 12%;
 			height: 10%;
@@ -200,11 +197,11 @@ footer { width: 100%;
 				 background-color: rgba(0,0,0,.5); 
 				} */
 	
-#largelogo { width: 50%;
-			/*height: 100%;*/
+#largelogo { width: 60%;
+			height: 100%;
 			float: left;
-			margin: 1%;
-			/*border-right: 1px solid gold;*/
+			margin: 0;
+			border-right: 1px solid gold;
 			/*background-image: url(manymooonzlogo1b.png);*/
 			/*background-color: rgba(80,0,159,.80);*/
 			}	
