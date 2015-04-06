@@ -53,9 +53,10 @@ a:link {
 a:hover { text-decoration: underline; 
 			color: rgba(157,159,11,.75); }
 
-hr { color: black; 
+hr { 
+	color: black; 
 	width: 10%;
-	margin-top: -2px; 
+	margin-top: -5%; 
 	}
 
 h1 { color: rgba(233,236,33,1); 
@@ -77,26 +78,39 @@ h2 { color: rgba(252,255,61,.8);
 	 }
 
 h3 { color: rgba(252,255,61,.8); 
-	 font-size: 1em; 
+	 font-size: 1.25em; 
+	 font-weight: 500;
 	 text-align: center; 
+	 letter-spacing: .15em;
 	 font-family: 'Optima',sans-serif; 
-	 /*padding: 10px;*/
+	 padding: 5%;
 	 margin: 0;
-	 float: left; }	
-/*h4 { }	*/
+	 /*float: left; */
+	}	
+h4 { color: rgba(65,16,137,1); 
+	 font-size: 1.15em; 
+	 font-weight: 300;
+	 text-align: center; 
+	 letter-spacing: .15em;
+	 font-family: 'Optima',sans-serif; 
+	 padding: 2.5%;
+	 margin: 0;
+
+}	
 
 /* line-height & margin stay same relative to size of font.*/ 
 /*Line-height also known as leading & letter-spacing known as kerning*/
-p { color: rgba(157,159,11,1); 
+p { color: rgba(65,16,137,1); 
 	text-align: center; 
 	font-family: Georgia; 
-	font-size: 16px; 
+	font-size: 1em; 
 	line-height: 1.5em; 
-	margin: 2em; 
+	/*margin: 2em; */
 	letter-spacing: .65px;
 	max-width: 400px; 
-	border: 1px rgba(157,159,11,.25) solid;
-	padding: 3px; }
+	/*border: 1px rgba(157,159,11,.25) solid;*/
+	padding: 4%; 
+}
 
 /*a { }*/
 
@@ -107,10 +121,11 @@ section { height: 100vh;
 
 img { 
 		/*display: block;*/
-		width: 60%;
+		width: 100%;
 		/*height: auto;*/
 		/*margin: 0 auto;*/
-		float: left; }
+		/*float: left; */
+	}
 
 /*section img { display: block;
 		width: 100%;
@@ -120,22 +135,23 @@ img {
 */
 figure img{ 
 		width: 100%;
-		min-width: 200px;
-		max-width: 300px;
+		min-width: 150px;
+		max-width: 400px;
+		margin-top: 10%;
 	}
 figcaption{ 
 		color: rgba(157,159,11,1) ;}
 
 footer { width: 100%;
-			height: 19.1%;
+			/*height: 5%;*/
 			margin: 0 auto;
 			float: left;
 			background-color: rgba(36,9,76,1) ; 
 			font-style: italic;
 			font-family: Georgia, serif;
-			color:  rgba(157,159,11,1);
+			color:  rgba(157,159,11,.75);
 			text-align: center;
-			padding: .25em 0px 0px; 
+			/*padding: .25em 0px 0px; */
 
 		}
 
@@ -160,23 +176,22 @@ footer { width: 100%;
 		width: 30%;
 		margin: 1% 1.618%;
 		float: left;
+		position: relative;
 }	
 /*.col_1 img { 
 		width: 100% 
 }	*/
 
 /*--------------------------------------------------------*/
-.center { text-align: center;
-		padding-top: 10px; }
-
 .sectionh2 {  color: rgba(233,236,33,1); 
 	font-size: 1.618em; 
 	text-align: center; 
 	font-weight: 600; 
 	font-family:'Optima'; 
-	letter-spacing: 2px;
-	text-shadow: 2px 2px 2px #000; 
-	margin-top: 10%;}
+	letter-spacing: .1618%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	}
 	
 .button { width: 12%;
 			height: 10%;
@@ -227,7 +242,9 @@ footer { width: 100%;
 			/*background-image: url(manymooonzlogo1b.png);*/
 			/*background-color: rgba(80,0,159,.80);*/
 			}								
-
+#about_wrap { 
+			width: 100%;
+			margin: 0 0 8 0; }
 /*#littlelogo { width: 185px;
 				height: 116px;
 				margin: 0;
@@ -291,6 +308,7 @@ footer { width: 100%;
 					height: 0; }
 
 
+/*--------------------Mobile begins here----------------*/
 
 
 
