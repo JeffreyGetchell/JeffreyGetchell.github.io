@@ -54,7 +54,6 @@ a:hover { text-decoration: underline;
 			color: rgba(157,159,11,.75); }
 
 hr { 
-	color: black; 
 	width: 10%;
 	margin-top: -5%; 
 	}
@@ -279,7 +278,7 @@ footer { width: 100%;
 	margin-right: 20%;
 }*/
 
-.triangle-up3 {
+.triangle-up1 {
 	width: 0;
 	height: 0;
 	float: left;
@@ -289,7 +288,7 @@ footer { width: 100%;
 	margin-left: 45%;
 	margin-top: 5%;
 }
-.triangle-up4 {
+.triangle-up2 {
 	width: 0;
 	height: 0;
 	float: left;
@@ -309,6 +308,89 @@ footer { width: 100%;
 
 
 /*--------------------Mobile begins here----------------*/
+@media only screen and (max-width: 500px) { 
+	.col_1 { 
+		width: 28%;
+		margin: 1% 1.618%;
+		float: left;
+		}	
+
+		li{
+	display: block;
+    }
+
+    img { 
+    	width: 80%
+ 	}
+    	h2 { color: rgba(252,255,61,.8); 
+	font-size: 1.25em; 
+	font-weight: 600;
+	text-align: center; 
+	font-family: 'Optima',sans-serif;
+	/*margin-top: 12px;*/
+	 }
+    h4 { color: rgba(65,16,137,1); 
+	 font-size: 1em; 
+	 font-weight: 300;
+	 text-align: center; 
+	 letter-spacing: .15em;
+	 font-family: 'Optima',sans-serif; 
+	 padding: 2.5%;
+	 margin: 0;
+
+	}		
+	p { 
+		color: rgba(65,16,137,1); 
+	text-align: center; 
+	font-family: Georgia; 
+	font-size: 1em; 
+	line-height: 1.25em; 
+	/*margin: 2em; */
+	letter-spacing: .25em;
+	max-width: 100px; 
+	/*border: 1px rgba(157,159,11,.25) solid;*/
+	padding: 4%; 
+}
+
+	 hr { 
+	width: 20%;
+	margin-top: -5%; 
+	}
+
+   .sectionh2 {  color: rgba(233,236,33,1); 
+	font-size: 1.25em; 
+	text-align: center; 
+	font-weight: 600; 
+	font-family:'Optima'; 
+	letter-spacing: .1618%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	}
+	.triangle-up1 {
+		width: 0;
+		height: 0;
+		float: left;
+		border-left: 40px solid transparent;
+		border-right: 40px solid transparent;
+		border-bottom: 120px solid rgba(157,159,11,1);
+		margin-left: 45%;
+		margin-top: 5%;
+	}
+	.triangle-up2 {
+		width: 0;
+		height: 0;
+		float: left;
+		border-left: 40px solid transparent;
+		border-right: 40px solid transparent;
+		border-bottom: 120px solid rgba(157,159,11,1);
+		margin-left: -5%;
+		margin-top: 5%;
+	}
+
+
+
+
+}
 
 
 
