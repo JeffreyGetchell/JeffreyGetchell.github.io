@@ -201,16 +201,32 @@ footer { width: 100%;
 		}	
 
 #intro { background: url(moon1a.png) no-repeat center center; 
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
 		 background-color: rgba(36,9,76,1); 		
 		/*opacity: 20%; */
 		 }
 #designz { background: url(moon3.png) no-repeat center center;
+			-webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;
 			background-color: rgba(65,16,137,1); }
 			
 #portraitz { background: url(moon2a.png) no-repeat center center;
+				-webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;
 			background-color: rgba(94,23,197,1); }			
 
 #about { background: url(moon4.png) no-repeat center center;	
+			-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
 		background-color: rgba(157,159,11,1);
 	}
 
