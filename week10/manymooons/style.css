@@ -8,8 +8,8 @@ body { width: 100% ;
 	font-family: 'Optima'; 
 	 }
 header { width: 100%;
-		height: 30%; 
-		float: left;
+		/*height: 30%; */
+		/*float: left;*/
 		/*border-bottom: 1px solid gold ;*/
 		position: fixed;
 		}
@@ -245,8 +245,10 @@ footer { width: 100%;
 
  #container2 {
  			width: 100%;
- 			height: 62.8%;
+ 			margin-top: 400px;
+ 			/*height: 62.8%;*/
  			/*background-color: red;*/
+ 			position: relative;
 			 }
 	
 #largelogo { width: 62%;
@@ -326,9 +328,9 @@ footer { width: 100%;
 /*--------------------Mobile begins here----------------*/
 @media only screen and (max-width: 500px) { 
 	.col_1 { 
-		width: 28%;
+		width: 90%;
 		margin: 1% 1.618%;
-		float: left;
+		float: none;
 		}	
 
 		li{
@@ -372,6 +374,10 @@ footer { width: 100%;
 	width: 20%;
 	margin-top: -5%; 
 	}
+
+	section { height: auto; 
+			overflow: auto;	
+		}
 
    .sectionh2 {  color: rgba(233,236,33,1); 
 	font-size: 1.25em; 
