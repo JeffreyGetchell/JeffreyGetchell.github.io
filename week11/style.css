@@ -1,0 +1,146 @@
+
+/* My cool css stuff actually begins here. */
+body { width: 100% auto ;
+		font-family: ; 
+		font-size:16px; 
+		text-align: ;
+		padding: 0px;
+ 		margin: 0px;
+		/*float: left;*/
+	}
+
+h1, h2, h3 {
+	color: rgba());
+	padding: 0px;
+	margin: 0px;
+	text-align: center; }	
+
+h1 { color: rgba(); 
+		font-size: 1.618em; 		
+		font-weight: 800; } 
+
+h2 { color: gray; font-size: 1.25em; font-style: italic;}
+
+p { color: rgba(242,246,141,1); 
+	text-align: center; 
+	font-family: Georgia; 
+	line-height: 1.5em; 
+	margin-bottom: 85px; 
+	margin-left: 40px;
+	letter-spacing: .65px;
+	width: 90%;
+	/*max-width: 400px; */
+	/*border: 1px rgba(157,159,11,.25) solid;*/
+	padding: 1px; 
+	float: left;
+	}
+
+hr { color: black; width: 150px; }
+	 
+
+
+#master { width: 95%; 
+		  height: 1550px;
+		  margin: 0px auto;
+		  border: 2px solid black;
+		  background: url() no-repeat center;
+		  opacity: 0.75;
+		  /*box-shadow: 10px;*/
+		  /*float: left;*/
+		 /* background-color: rgba(242,246,142,1);*/
+		  }
+
+header { /*background-color: rgba(0,0,0,.3);*/
+		width: 100%;
+	  	height: auto;
+	  	margin: 0px auto;
+	  	/*float: left; */
+	  	background-color: rgba();
+	  	/*border: black solid 1px;*/
+	  	position: fixed;
+	  	}
+
+nav { width: 100%;
+	  height: 100px;
+	  margin: 0px auto;
+	  float: left;
+	  /*position: fixed;*/
+	  /*border: 2px rgba(157,159,11,1) solid;*/
+	  /*background-color: rgba(115,116,67,.25); */
+	}	
+
+ul { /*margin-left: 175px; 
+	 margin-top: 75px; 
+	 padding: 50px; 
+	 float:left; */
+	}
+
+li {
+	/*display: inline;
+	/*background: rgba(233,236,33,.5);*/
+	/*font-family: ;
+	font-weight: 700;
+	font-size: 1.25em;
+	border: 1px solid black;
+	padding-top: 10px;
+	text-align: center; */
+	 }
+
+li a { /*text-decoration: none;
+		background-color: rgba(); 
+		color: rgba() ;
+		padding: 50px;
+		border: black solid 1px;
+		float: left;*/
+		/*margin-top: 10px;*/
+	 }
+
+footer { /*background-color: white;*/
+		/*width: 100%;
+	  	height: auto;
+	  	margin: 0px ;
+		font-style: italic;
+		font-family: Georgia, serif;*/
+		/*padding: 10px;*/
+		/*margin-bottom: -10px; */
+		/*float: left; */
+	}
+
+/*.menubutton {
+			/*background: ; */
+			/*padding: 5px 10px; */
+			/*color: #ff9933; */
+			/*margin: 2px; 
+			text-decoration: none; 
+			font-weight:bold; 
+			border-bottom: 2px solid #333; 
+			border-right: 2px solid #333; 
+			cursor: pointer;
+			box-shadow: 3px 3px 3px #000;
+			-webkit-box-shadow: 3px 3px 3px #000;
+			-moz-box-shadow: 3px 3px 3px #000;
+			border-radius: 10px 30px; }
+*/
+a:hover { text-decoration:underline; 
+			color: rgba( ); 
+		 }
+
+.clearfix:after { visibility: hidden;
+					display: block;
+					font-size: 0;
+					content: "" ;
+					clear: both;
+					height: 0; }
+
+/*-------------------Mobile First-----------------*/
+@media only screen and (max-width: 480px) { }
+  
+		  
+
+
+
+
+
+
+
+
