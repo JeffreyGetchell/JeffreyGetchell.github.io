@@ -1,50 +1,54 @@
 
 /* My cool css stuff actually begins here. */
-body { width: 100% auto ;
-		font-family: ; 
+body { width: 100% ;
+		font-family: 'Times New Roman',serif ; 
 		font-size:16px; 
 		text-align: ;
-		padding: 0px;
- 		margin: 0px;
-		/*float: left;*/
+		background: url(bg_1280.png) center center; 
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
 	}
 
 h1, h2, h3 {
 	color: rgba());
-	padding: 0px;
-	margin: 0px;
 	text-align: center; }	
 
 h1 { color: rgba(); 
 		font-size: 1.618em; 		
 		font-weight: 800; } 
 
-h2 { color: gray; font-size: 1.25em; font-style: italic;}
+h2 { color: gray; font-size: 1.25em; font-style: italic; }
 
 p { color: rgba(242,246,141,1); 
 	text-align: center; 
-	font-family: Georgia; 
+	font-family: 'Times New Roman'; 
 	line-height: 1.5em; 
-	margin-bottom: 85px; 
-	margin-left: 40px;
+	/*margin-bottom: 85px; 
+	margin-left: 40px;*/
 	letter-spacing: .65px;
 	width: 90%;
 	/*max-width: 400px; */
 	/*border: 1px rgba(157,159,11,.25) solid;*/
-	padding: 1px; 
-	float: left;
+	/*padding: 1px; 
+	float: left;*/
 	}
+section { height: 100vh; 
+			overflow: auto;	
+		}	
+/*img { width: 100%; }		*/
 
 hr { color: black; width: 150px; }
 	 
 
 
-#master { width: 95%; 
-		  height: 1550px;
-		  margin: 0px auto;
-		  border: 2px solid black;
+.master { width: 95%; 
+		  height: auto;
+		  margin: 1% auto;
+		  border: 1% solid black;
 		  background: url() no-repeat center;
-		  opacity: 0.75;
+		  /*opacity: 0.75;*/
 		  /*box-shadow: 10px;*/
 		  /*float: left;*/
 		 /* background-color: rgba(242,246,142,1);*/
@@ -52,18 +56,19 @@ hr { color: black; width: 150px; }
 
 header { /*background-color: rgba(0,0,0,.3);*/
 		width: 100%;
-	  	height: auto;
-	  	margin: 0px auto;
+	  	/*height: 20%;*/
 	  	/*float: left; */
-	  	background-color: rgba();
-	  	/*border: black solid 1px;*/
+	  	/*background-image: url(headerbg.jpg) no-repeat;*/
+	  	/*background-color: rgba( 255,255,153,1);*/
+	  	border: white solid 1px;
 	  	position: fixed;
 	  	}
+header img { max-width: 40%;}	  	
 
 nav { width: 100%;
-	  height: 100px;
+	  height: auto;
 	  margin: 0px auto;
-	  float: left;
+	  /*float: left;*/
 	  /*position: fixed;*/
 	  /*border: 2px rgba(157,159,11,1) solid;*/
 	  /*background-color: rgba(115,116,67,.25); */
@@ -76,8 +81,8 @@ ul { /*margin-left: 175px;
 	}
 
 li {
-	/*display: inline;
-	/*background: rgba(233,236,33,.5);*/
+	display: inline;
+	/*background: rgba(233,236,33,.5);
 	/*font-family: ;
 	font-weight: 700;
 	font-size: 1.25em;
@@ -104,8 +109,25 @@ footer { /*background-color: white;*/
 		/*padding: 10px;*/
 		/*margin-bottom: -10px; */
 		/*float: left; */
-	}
+	}	
 
+#home { 
+		background-color: rgba( 0,0,0,.5);}
+#ourprograms { 
+			background-color: rgba( 46,123,54,.7);}
+#instructors {
+			background-color: rgba( 255,255,153,.7); }
+#class_schedule { 
+			background-color: rgba( 94,251,110,.7);}
+#contactus {
+			background-color: rgba( 255,255,229,.7); }
+
+#logo { 
+		width: 40%;
+		height: auto;
+		margin: 1%; 
+		/*background-color: rgba( 255,255,153,1);*/
+	}
 /*.menubutton {
 			/*background: ; */
 			/*padding: 5px 10px; */
@@ -125,6 +147,14 @@ a:hover { text-decoration:underline;
 			color: rgba( ); 
 		 }
 
+.button { width: 12%;
+			height: 10%;
+			/*background: rgba(233,236,33,1);*/
+			/*margin: 0 auto;*/
+			padding: 15px; 
+			/*float: left; */
+		}			 
+
 .clearfix:after { visibility: hidden;
 					display: block;
 					font-size: 0;
@@ -133,11 +163,53 @@ a:hover { text-decoration:underline;
 					height: 0; }
 
 /*-------------------Mobile First-----------------*/
-@media only screen and (max-width: 480px) { }
+@media only screen and (max-width: 480px) { 
+body { width: 100%;
+	background: url(bg_480.png) center center; 
+		/*-webkit-background-size: cover;
+  		-moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;*/
+		}
+header { 
+	position: relative;}
+header img { max-width: 60%;}	
+#logo { 
+		width: 60%;
+		height: auto;
+		margin: 1%; }
+/*section { height: auto; 
+			overflow: auto;	
+		}*/
+}
   
-		  
+/*----------------------Tablets/ med resolution--------------------*/
+
+@media only screen and (min-width: 481px) { 
+body { width: 100%;
+	background: url(bg_960.png) center; 
+		/*-webkit-background-size: cover;
+  		-moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;*/
+		}
+
+}
 
 
+/*--------------------larger resolution------------------*/
+
+@media only screen and (min-width: 1024px) { 
+
+body { width: 100%;
+	background: url(bg_1280.png) center; 
+		/*-webkit-background-size: cover;
+  		-moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;*/
+		}
+
+}
 
 
 
