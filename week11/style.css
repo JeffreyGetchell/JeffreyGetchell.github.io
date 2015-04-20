@@ -3,7 +3,7 @@
 body { width: 100% ;
 		font-family: 'Times New Roman',serif ; 
 		font-size:16px; 
-		text-align: ;
+		text-align: center;
 		background: url(bg_1280.png) center center; 
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
@@ -11,7 +11,7 @@ body { width: 100% ;
 		  background-size: cover;
 	}
 
-h1, h2, h3 {
+h1, h2, h3,h4 {
 	color: rgba());
 	text-align: center; }	
 
@@ -19,16 +19,18 @@ h1 { color: rgba();
 		font-size: 1.618em; 		
 		font-weight: 800; } 
 
-h2 { color: gray; font-size: 1.25em; font-style: italic; }
+h2 { color: rgba() ; font-size: 2em; font-style: bold; font-weight: 600;}
+h3 { font-size: 1.5em; font-style: italic; margin: 1% 0; }
+h4 { font-size: 1em; font-weight: 500; }
 
-p { color: rgba(242,246,141,1); 
+p { color: rgba(0,0,0,1); 
 	text-align: center; 
 	font-family: 'Times New Roman'; 
 	line-height: 1.5em; 
 	/*margin-bottom: 85px; 
 	margin-left: 40px;*/
 	letter-spacing: .65px;
-	width: 90%;
+	width: 100%;
 	/*max-width: 400px; */
 	/*border: 1px rgba(157,159,11,.25) solid;*/
 	/*padding: 1px; 
@@ -44,30 +46,30 @@ hr { color: black; width: 150px; }
 
 
 .master { width: 95%; 
-		  height: auto;
-		  margin: 1% auto;
-		  border: 1% solid black;
+		  height: 100%;
+		  /*max-width: 980px;*/
+		  margin: 0 auto;
+		  /*border: 1% solid black;*/
 		  background: url() no-repeat center;
 		  /*opacity: 0.75;*/
 		  /*box-shadow: 10px;*/
-		  /*float: left;*/
+		  float: left;
 		 /* background-color: rgba(242,246,142,1);*/
 		  }
 
 header { /*background-color: rgba(0,0,0,.3);*/
 		width: 100%;
-	  	/*height: 20%;*/
+	  	height: auto;
 	  	/*float: left; */
-	  	/*background-image: url(headerbg.jpg) no-repeat;*/
-	  	/*background-color: rgba( 255,255,153,1);*/
-	  	border: white solid 1px;
+	  	/*border: white solid 1px;*/
 	  	position: fixed;
 	  	}
-header img { max-width: 40%;}	  	
+header img { max-width: 50%;}	  	
 
 nav { width: 100%;
 	  height: auto;
-	  margin: 0px auto;
+	  padding-bottom: 15px;
+	  margin-left: 1%;
 	  /*float: left;*/
 	  /*position: fixed;*/
 	  /*border: 2px rgba(157,159,11,1) solid;*/
@@ -83,53 +85,61 @@ ul { /*margin-left: 175px;
 li {
 	display: inline;
 	/*background: rgba(233,236,33,.5);
-	/*font-family: ;
-	font-weight: 700;
-	font-size: 1.25em;
-	border: 1px solid black;
-	padding-top: 10px;
-	text-align: center; */
+	font-family: ;*/
+	font-weight: 600;
+	font-size: 1em;
+	/*color: rgba( 0,0,0,1);*/
+	/*border: 1px solid black;*/
+	/*padding-top: 5px;*/
+	text-align: center; 
 	 }
 
-li a { /*text-decoration: none;
+li a { text-decoration: none;
 		background-color: rgba(); 
-		color: rgba() ;
-		padding: 50px;
-		border: black solid 1px;
+		color: rgba(0,0,0,1) ;
+		/*padding: 50px;
+		border: black solid 1px;		
+		margin-top: 10px;
 		float: left;*/
-		/*margin-top: 10px;*/
 	 }
 
-footer { /*background-color: white;*/
-		/*width: 100%;
+article { width: 80%;
+			margin: 0 auto;
+			text-align: center; 
+			padding: 1%; }
+
+footer { background-color: rgba( 46,123,54,1);
+		width: 100%;
 	  	height: auto;
-	  	margin: 0px ;
+	  	margin: 0px auto;
 		font-style: italic;
-		font-family: Georgia, serif;*/
-		/*padding: 10px;*/
+		padding: 1em;
 		/*margin-bottom: -10px; */
-		/*float: left; */
+		float: left; 
 	}	
 
 #home { 
-		background-color: rgba( 0,0,0,.5);}
+		background-color: rgba( 255,255,229,.7);}
 #ourprograms { 
 			background-color: rgba( 46,123,54,.7);}
 #instructors {
-			background-color: rgba( 255,255,153,.7); }
+			background-color: rgba( 255,255,153,.7);}
 #class_schedule { 
-			background-color: rgba( 94,251,110,.7);}
+			background-color: rgba( 46,123,54,.8);}
 #contactus {
-			background-color: rgba( 255,255,229,.7); }
+			background-color: rgba( 255,255,229,.7);}
 
 #logo { 
-		width: 40%;
+		width: 50%;
 		height: auto;
-		margin: 1%; 
-		/*background-color: rgba( 255,255,153,1);*/
+		margin: 0 auto;
+		text-align: center; 
 	}
+#class_schedule ul li h2 { display: block; 
+						text-align: left; 
+						margin-left: 5%; }						
 /*.menubutton {
-			/*background: ; */
+			/*background: ; 
 			/*padding: 5px 10px; */
 			/*color: #ff9933; */
 			/*margin: 2px; 
@@ -147,14 +157,53 @@ a:hover { text-decoration:underline;
 			color: rgba( ); 
 		 }
 
-.button { width: 12%;
+.container { width: 90%;
+				/*margin: 0 auto;*/
+				/*top: 25%;*/
+				/*transform: translateY(-60%);*/
+				margin-left: 5%;
+				margin-top: 15%;
+				position: relative;
+				/*background-color: white;*/
+				/*float: left;*/
+			}
+.container img { width: 70%; }			
+
+.button { width: 10%;
 			height: 10%;
 			/*background: rgba(233,236,33,1);*/
 			/*margin: 0 auto;*/
-			padding: 15px; 
+			padding: 1%; 
 			/*float: left; */
-		}			 
+		}	
+.gap { width: 100%;
+	height: 2%;
+	margin: 0 auto; }	
 
+.top { position: relative;
+		top: 25%;
+		/*transform: translateY(-60%);*/
+		 }		
+
+/*.bottom { position: absolute;
+			bottom: 10%; 
+			transform: translateY(0%);
+			transform: translateX(40%);
+		}*/
+.styledslogan { 
+				font-size: 3em;
+				text-transform: uppercase;
+				/*border-top: 1px solid rgba(94,251,110,1);*/
+				border-bottom: 1px solid rgba(0,0,0,1);
+				padding-top: .5%;
+				padding-bottom: .5%;
+				line-height: 100%;
+				text-align: center;
+				margin-top: 1%;
+				margin-bottom: 1%;
+				margin-left: 2%;
+			}
+.bgsandy { background-color: rgba( 255,255,153,1);}			
 .clearfix:after { visibility: hidden;
 					display: block;
 					font-size: 0;
@@ -165,23 +214,44 @@ a:hover { text-decoration:underline;
 /*-------------------Mobile First-----------------*/
 @media only screen and (max-width: 480px) { 
 body { width: 100%;
+		font-size: 14px;
 	background: url(bg_480.png) center center; 
 		/*-webkit-background-size: cover;
   		-moz-background-size: cover;
 		  -o-background-size: cover;
 		  background-size: cover;*/
 		}
+h1,h2,h3 { margin-top: 2%; margin-bottom: 2%;}		
 header { 
 	position: relative;}
 header img { max-width: 60%;}	
 #logo { 
 		width: 60%;
 		height: auto;
-		margin: 1%; }
+		margin: 0 auto; 
+		 }
 /*section { height: auto; 
 			overflow: auto;	
 		}*/
+.container { width: 90%;
+				margin-left: 10%;
+				margin-top: 10%;
+				margin-bottom: 15%;
+				position: relative;
+			}		
+.container img { width: 90%; }	
+.styledslogan { margin-top: 5%;
+				margin-bottom: 5%; }
+
+.top { position: relative;
+		top: 5%;
+		/*transform: translateY(-60%);*/
+		 }	
+
 }
+	
+
+
   
 /*----------------------Tablets/ med resolution--------------------*/
 
@@ -193,8 +263,13 @@ body { width: 100%;
 		  -o-background-size: cover;
 		  background-size: cover;*/
 		}
+.top { position: relative;
+		top: 15%;
+		/*transform: translateY(-60%);*/
+		 }			
 
 }
+
 
 
 /*--------------------larger resolution------------------*/
@@ -208,6 +283,10 @@ body { width: 100%;
 		  -o-background-size: cover;
 		  background-size: cover;*/
 		}
+.top { position: relative;
+		top: 25%;
+		/*transform: translateY(-60%);*/
+		 }	
 
 }
 
