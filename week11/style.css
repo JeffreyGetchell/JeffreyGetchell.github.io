@@ -52,7 +52,7 @@ header { /*background-color: rgba(0,0,0,.3);*/
 	  	height: auto;
 	  	/*float: left; */
 	  	/*border: white solid 1px;*/
-	  	position: fixed;
+	  	position: relative;
 	  	}
 header img { max-width: 50%;}	  	
 
@@ -63,18 +63,19 @@ ul { /*margin-left: 175px;
 	}
 
 li {
-	display: inline;
+	/*display: inline;*/
 	/*background: rgba(233,236,33,.5);
 	font-family: ;*/
 	font-weight: 600;
-	font-size: 1em;
+	/*font-size: 1em;*/
 	/*color: rgba( 0,0,0,1);*/
 	/*border: 1px solid black;*/
 	/*padding-top: 5px;*/
-	text-align: center; 
+	text-align: left; 
 	 }
 
-li a { text-decoration: none;
+li a { 
+	text-decoration: none;
 		background-color: rgba(); 
 		color: rgba(0,0,0,1) ;
 		/*padding: 50px;
@@ -119,12 +120,12 @@ a:hover { text-decoration:underline;
 				/*top: 25%;*/
 				/*transform: translateY(-60%);*/
 				margin-left: 5%;
-				margin-top: 15%;
+				margin-top: 10%;
 				position: relative;
 				/*background-color: white;*/
 				/*float: left;*/
 			}
-.container img { width: 70%; }			
+.container img { width: 50%; }			
 
 .button { width: 10%;
 			height: 10%;
@@ -165,15 +166,15 @@ a:hover { text-decoration:underline;
 
 
 #home { 
-		background-color: rgba( 255,255,229,.7);}
+		background-color: rgba( 255,255,229,.8);}
 #ourprograms { 
-			background-color: rgba( 46,123,54,.7);}
+			background-color: rgba( 46,123,54,.8);}
 #instructors {
-			background-color: rgba( 255,255,153,.7);}
+			background-color: rgba( 255,255,153,.8);}
 #class_schedule { 
 			background-color: rgba( 46,123,54,.8);}
 #contactus {
-			background-color: rgba( 255,255,229,.7);}
+			background-color: rgba( 255,255,229,.8);}
 
 #logo { 
 		width: 50%;
@@ -221,7 +222,7 @@ a:hover { text-decoration:underline;
   
   /* non-critical appearance styles */
   list-style: none;
-  background: #f3f3f3;
+  background: rgba(0,0,0,1);
 }
 
 /* Navigation Menu - List items */
@@ -244,8 +245,8 @@ a:hover { text-decoration:underline;
 }
 
 .nav-item a:hover {
-  color: #c74438;
-  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
+  color: rgba( 255,255,153,1);
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba( 255,255,153,.45) 100%);
 }
 
 /* Site Wrapper - Everything that isn't navigation */
@@ -254,8 +255,8 @@ a:hover { text-decoration:underline;
   min-height: 100%;
   min-width: 100%;
   /* Needs a background or else the nav will show through */
-  background: url(bg_1280.png) center center;
-  /*background-color: white; */
+  /*background: url(bg_960.jpg) center center;*/
+  background-color: rgba( 255,255,229,1); 
   position: relative;
   top: 0;
   bottom: 100%;
@@ -263,9 +264,9 @@ a:hover { text-decoration:underline;
   z-index: 1;
   
   /* non-critical apperance styles */
-  padding: 4em;
+  /*padding: 1em;*/
   /*background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);*/
-  background-size: 200%;
+  background-size: 100%;
 }
 
 /* Nav Trigger */
@@ -299,7 +300,7 @@ label[for="nav-trigger"] {
 }
 
 .nav-trigger:checked ~ .site-wrap {
-  left: 200px;
+  left: 160px;
   box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
 }
 /*----------------------New Nav ends here---------------*/
@@ -308,21 +309,18 @@ label[for="nav-trigger"] {
 @media only screen and (max-width: 480px) { 
 body { width: 100%;
 		font-size: 14px;
-	background: url(bg_480.png) center center; 
-		/*-webkit-background-size: cover;
-  		-moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;*/
+	
 		}
 h1,h2,h3 { margin-top: 2%; margin-bottom: 2%;}		
 header { 
 	position: relative;}
 header img { max-width: 60%;}	
-#logo { 
-		width: 60%;
-		height: auto;
-		margin: 0 auto; 
-		 }
+
+/*.site-wrap {   background: url(bg_480.jpg) center center; 
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover; }*/
 
 /*section { height: auto; 
 			overflow: auto;	
@@ -333,26 +331,41 @@ header img { max-width: 60%;}
 				margin-bottom: 15%;
 				position: relative;
 			}		
-.container img { width: 90%; }	
+.container img { width: 90%;
+					margin-top: 35%; 
+				}	
 .styledslogan { margin-top: 5%;
 				margin-bottom: 5%; }
+
+.nav-trigger:checked + label {
+  left: 145px; }
+.nav-trigger:checked ~ .site-wrap {
+  left: 130px;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}  
 
 .top { position: relative;
 		top: 5%;
 		 }	
 
-}
-	
+#logo { 
+		width: 60%;
+		height: auto;
+		margin: 0 auto; 
+		 }	
+}		 
 /*----------------------Tablets/ med resolution--------------------*/
 
 @media only screen and (min-width: 481px) { 
 body { width: 100%;
-	background: url(bg_960.png) center; 
+	
+		}
+/*.site-wrap { background: url(bg_960.jpg) center; */
 		/*-webkit-background-size: cover;
   		-moz-background-size: cover;
 		  -o-background-size: cover;
-		  background-size: cover;*/
-		}
+		  background-size: cover;*/  
+}		
 .top { position: relative;
 		top: 15%;
 		/*transform: translateY(-60%);*/
@@ -367,12 +380,16 @@ body { width: 100%;
 @media only screen and (min-width: 1024px) { 
 
 body { width: 100%;
-	background: url(bg_1280.png) center; 
-		/*-webkit-background-size: cover;
+	
+		}
+.site-wrap { 
+	    /*background: url(bg_1280.png) center; 
+		-webkit-background-size: cover;
   		-moz-background-size: cover;
 		  -o-background-size: cover;
-		  background-size: cover;*/
-		}
+		  background-size: cover;		*/  
+
+}		
 .top { position: relative;
 		top: 25%;
 		/*transform: translateY(-60%);*/
