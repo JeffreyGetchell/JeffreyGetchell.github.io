@@ -8,17 +8,19 @@ body { width: 100% ;
 /* Without this, the body has excess horizontal scroll when the menu is open */
 		  overflow-x: hidden;
 }
-	}
+	
 
 h1, h2, h3,h4 {
-	color: rgba());
+	/*color: rgba());*/
 	text-align: center; }	
 
-h1 { color: rgba(); 
+h1 { 
+		/*color: rgba(); */
 		font-size: 1.618em; 		
 		font-weight: 800; } 
 
-h2 { color: rgba() ; font-size: 2em; font-style: bold; font-weight: 600;}
+h2 { font-size: 2em; font-weight: 600;}
+
 h3 { font-size: 1.5em; font-style: italic; margin: 1% 0; }
 h4 { font-size: 1em; font-weight: 500; }
 
@@ -73,7 +75,7 @@ li {
 
 li a { 
 	text-decoration: none;
-		background-color: rgba(); 
+		/*background-color: rgba(); */
 		color: rgba(0,0,0,1) ;
 	 }
 a:hover { text-decoration:underline; 
@@ -279,7 +281,6 @@ label[for="nav-trigger"] {
 #class_schedule ul li h3 { display: block; 
 						text-align: center; 
 						margin-left: 5%; 
-						font-style: bold;
 						text-transform: uppercase;
 							}	
 #class_schedule ul li h4 { text-align: center;  }												
@@ -340,7 +341,7 @@ header img { max-width: 60%;}
 }		 
 /*----------------------Tablets/ med resolution--------------------*/
 
-@media only screen and (min-width: 551px; max-width: 1023px ) { 
+@media only screen and (min-width: 551px max-width: 1023px ) { 
 
 body { width: 100%; }	
 
@@ -419,7 +420,7 @@ label[for="nav-trigger"] { display: none; }
   min-height: 100%;
   min-width: 100%;
   /* Needs a background or else the nav will show through */
-  background-color: none; 
+  background-color: rgba( 255,255,229,1); 
   position: relative;
   top: 0;
   bottom: 100%;
