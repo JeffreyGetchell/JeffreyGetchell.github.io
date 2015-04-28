@@ -155,7 +155,7 @@ footer {
 					clear: both;
 					height: 0; }
 
-
+.left { margin-left: 170px; }
  		  /*css cone shape needs to used as a background image when very large becuase its all margins use relative positions.*/
 /*originalally 70x70x100 */
 #cone {
