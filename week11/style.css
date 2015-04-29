@@ -1,7 +1,7 @@
 
 /* My cool css stuff actually begins here. */
 body { width: 100% ;
-		font-family: 'Times New Roman',serif ; 
+		font-family: 'Garamond','Times New Roman',serif ; 
 		font-size:16px;
 		color: rgba(0,0,0,1);  
 		text-align: center;
@@ -27,7 +27,7 @@ h4 { font-size: 1em; font-weight: 500; }
 
 p { color: rgba(0,0,0,1); 
 	text-align: center; 
-	font-family: 'Times New Roman',serif; 
+	font-family: 'Garamond','Times New Roman',serif; 
 	line-height: 1.618em; 
 	margin: 0 auto;
 	margin-bottom: 30px; 
