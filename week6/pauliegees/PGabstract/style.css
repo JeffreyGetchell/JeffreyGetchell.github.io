@@ -1,6 +1,6 @@
 
 /* My cool css stuff actually begins here. */
-body { width: 100% auto ;
+body { width: 100%;
 		font-family: 'Optima', sans-serif ; 
 		font-size:16px; 
 		text-align: center;
@@ -165,8 +165,8 @@ footer {
   border-left: 630px solid transparent;
   border-right: 630px solid transparent;
   border-top: 900px solid rgba(242,246,142,1);
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
+  /*-moz-border-radius: 50%;
+  -webkit-border-radius: 50%;*/
   border-radius: 50%;
  	/*float: left;*/
  	margin-top: 5px;  
