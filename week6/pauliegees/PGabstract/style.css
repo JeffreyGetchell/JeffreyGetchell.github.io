@@ -132,21 +132,28 @@ img { width: 200px;
 		opacity: .5; }
 
 footer a:hover { text-decoration: underline; 
-					color: rgba(0,0,0,1); }
+					color: rgba(0,0,0,1); 
+					background: white; }
 
 footer { 
 		/*background-color: white;*/
 		width: 100%;
-	  	height: auto;
+	  	height: 10vh;
 	  	margin: 5px 0px;
 		font-style: italic;
 		font-family: Georgia, serif;
 		font-weight: 600;
 		padding: 10px;
 		/*margin-bottom: -10px; */
-		float: left; 
+		/*float: left; */
 		text-align: center;
 	}
+footer p { 
+	/*float: left;*/
+	margin: -140px 0px 0px 0px; 
+}	
+footer a { width: 100%;
+			height: auto; }
 
 .clearfix:after { visibility: hidden;
 					display: block;
