@@ -1,11 +1,9 @@
 
-/*@charset "UTF-8"; */
-
 /* My cool css stuff actually begins here. */
 body { width: 100% ; 
 	margin: 0 auto;	
 	font-size:16px; 
-	font-family: 'Optima'; 
+	font-family: 'Optima',sans-serif; 
 	 }
 header { width: 100%;
 		/*height: 30%; */
@@ -28,9 +26,10 @@ ul { display: block;
 li {
 	display: inline-block;
 	/*background: rgba(233,236,33,1);*/
-	font-family: 'Optima',Verdana;
+	font-family: 'Optima',sans-serif,Verdana;
 	font-weight: 700;
 	font-size: 1.25em;
+	letter-spacing: .05em;
 	/*border: 1px solid black;*/
 	/*padding: 0.5em;*/
 	/*color: rgba(233,236,33,1);*/
@@ -197,7 +196,6 @@ footer { width: 100%;
 			/*background: rgba(233,236,33,1);*/
 			/*margin: 0 auto;*/
 			padding: 15px; 
-			/*float: left; */
 		}	
 
 #intro { background: url(moon1a.png) no-repeat center center; 
@@ -246,8 +244,6 @@ footer { width: 100%;
 #container2 {
  			width: 100%;
  			margin-top: 400px;
- 			/*height: 62.8%;*/
- 			/*background-color: red;*/
  			position: relative;
 			 }
 	
@@ -262,39 +258,12 @@ footer { width: 100%;
 #about_wrap { 
 			width: 100%;
 			margin: 0 0 8 0; }
-/*#littlelogo { width: 185px;
-				height: 116px;
-				margin: 0;
-				float: left;
-				background-image: url(littlelogo.jpg);
-				background-color: rgba(80,0,159,.65); 
-			} */
 
 #welcomeh2 { background-color: rgba(80,0,159,1);
 				max-width: 400px; 
 				margin-left: 2em; 
 				margin-top: 15%;
 			}
-
-/*.triangle-up1 {
-	width: 0;
-	height: 0;
-	float: left;
-	border-left: 200px solid transparent;
-	border-right: 200px solid transparent;
-	border-bottom: 400px solid rgba(157,159,11,1);
-	margin-left: 60%;
-}
-
-#triangle-up2 {
-	width: 0;
-	height: 0;
-	float: left;
-	border-left: 200px solid transparent;
-	border-right: 200px solid transparent;
-	border-bottom: 400px solid rgba(157,159,11,1);
-	margin-right: 20%;
-}*/
 
 .triangle-up1 {
 	width: 0;
