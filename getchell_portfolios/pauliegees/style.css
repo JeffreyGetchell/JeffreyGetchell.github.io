@@ -1,0 +1,191 @@
+
+/* My cool css stuff actually begins here. */
+body { width: 100%;
+		font-family: 'Optima', sans-serif ; 
+		font-size:16px; 
+		text-align: center;
+		/*padding: 0px 20px 0px 0px;*/
+ 		margin: 0px;
+ 		background-color: rgba(188,193,54,1) ;
+		/*float: left;*/
+	}
+
+h1, h2, h3 {
+	/*color: rgba(61,92,168,1);*/
+	padding: 0px;
+	margin: 0px;
+	/*text-align: center;  */
+	font-family: 'Optima', sans-serif ; 
+}	
+
+h1 { color: rgba(61,92,168,1); 
+		font-size: 4em; 		
+		font-weight: 800; 
+		text-align: center;
+		width: 400px;
+	} 
+
+h2 { color:rgba(0,0,0,1); 
+	font-size: 2.25em; 
+	font-style: italic; 
+	font-weight: 600;
+
+	 }
+
+p { color: rgba(0,0,0,1); 
+	text-align: center; 
+	font-family: Georgia; 
+	line-height: 1.5em; 
+	margin-bottom: 85px; 
+	margin-left: 40px;
+	letter-spacing: .65px;
+	width: 90%;
+	/*max-width: 400px; */
+	/*border: 1px rgba(157,159,11,.25) solid;*/
+	padding: 1px; 
+	float: left;
+	}
+
+a:link { color: rgba(61,92,168,1); text-decoration:none; }
+a:hover { text-decoration: underline; 
+			color: rgba(188,193,54,1); }
+			
+
+hr { color: black; width: 150px; }
+	 
+div { position: relative; }
+
+#master { width: 100%; 
+		  height: 950px;
+		  margin: 0px auto;
+		  padding-left: 10px;
+		  /*border: 2px solid black;*/
+		  /*background: url() no-repeat center;
+		  opacity: 0.75;*/
+		  /*box-shadow: 10px;*/
+		  /*float: left;*/
+		  /*background-color: rgba(115,116,67,.25);*/
+		  }
+
+header { 
+	/*background-color: rgba(0,0,0,.3);*/
+		width: 960px;
+	  	height: auto;
+	  	margin: -800px -500px 0px;
+	  	float: left; 
+	  	/*border: black solid 1px;*/
+	  	}
+
+nav { 
+	/*width: 100%;
+	  height: 100px;*/
+	  margin: -775px -450px 0px 0px;
+	  float: right;
+	  display: block;
+	  /*position: fixed;*/
+	  /*border: 2px rgba(157,159,11,1) solid;*/
+	  /*background-color: rgba(115,116,67,.25); */
+	}	
+
+ul { 
+	/*margin-left: -5px; margin-top: 0; padding: 0; float:left; */
+	/*width: auto;
+	height: auto;*/
+	/*margin-left: 175px; 
+	 margin-top: 75px; 
+	 padding: 50px;*/ 
+	 /*display: block;*/
+	/* float:left; */
+	}
+
+li {
+	display: inline;
+	/*background: rgba(233,236,33,.5);*/
+	font-family: 'Optima';
+	font-weight: 600;
+	font-size: 1.618em;
+	/*border: 1px solid black;*/
+	padding: 15px;
+	text-align: center; 
+	/*list-style-type: none;*/
+	 }
+
+li a { 
+		/*text-decoration: none;*/
+		/*background-color: rgba(115,116,67,.25); */
+		color: rgba(61,92,168,1) ;
+		/*padding: 10px;*/
+		/*border: black solid 1px;*/
+		/*float: left;*/
+		/*margin: 10px;*/
+	 }
+
+li:hover { 
+			/*background: #fff; */
+			color: #000; }
+
+
+img { width: 200px;
+		/*height: 357px; */
+		float: right;
+		margin: -150px -100px 0px 0px; 
+		opacity: .5; }
+
+footer a:hover { text-decoration: underline; 
+					color: rgba(0,0,0,1); 
+					background: white; }
+
+footer { 
+		/*background-color: white;*/
+		width: 100%;
+	  	height: 10vh;
+	  	margin: 5px 0px;
+		font-style: italic;
+		font-family: Georgia, serif;
+		font-weight: 600;
+		padding: 10px;
+		/*margin-bottom: -10px; */
+		/*float: left; */
+		text-align: center;
+	}
+footer p { 
+	/*float: left;*/
+	margin: -140px 0px 0px 0px; 
+}	
+footer a { width: 100%;
+			height: auto; }
+
+.clearfix:after { visibility: hidden;
+					display: block;
+					font-size: 0;
+					content: " " ;
+					clear: both;
+					height: 0; }
+
+.left { margin-left: 100px; }
+ 		  /*css cone shape needs to used as a background image when very large becuase its all margins use relative positions.*/
+/*originalally 70x70x100 */
+#cone {
+  width: 0px;
+  height: 0px;
+  /*background-color: red;*/
+  border-left: 630px solid transparent;
+  border-right: 630px solid transparent;
+  border-top: 900px solid rgba(242,246,142,1);
+  /*-moz-border-radius: 50%;
+  -webkit-border-radius: 50%;*/
+  border-radius: 50%;
+ 	/*float: left;*/
+ 	margin-top: 5px;  
+ 	margin-right: 25px;
+ 	/*padding: 0px 40px;*/
+ 	}		  
+		  
+
+
+
+
+
+
+
+
