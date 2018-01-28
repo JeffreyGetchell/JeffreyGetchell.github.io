@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	color:  #44545E ;
+  /* margin: 0 auto;  */
+}
+nav {
+	height: 30px;
+	text-align: center;
+	margin: 10px;
+
+}
+nav a {
+	font-size: 16px;
+	color: #7B98AA;
+  text-decoration: none;
+  text-transform: uppercase;
+	padding: 55px;
+}
+
+/* Fix for responsive images */
+img {
+	display: block;
+	max-width: 100%;
+}
+h1,h2,h3, nav, footer a { font-family: 'Raleway', sans-serif;
+                           font-weight: 600;
+
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-align: center;
+	font-size: 37px ;
+
+}
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 16px ;
+}
+
+p {
+	font-family: 'Lato';
+	font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+	color: rgba(0,0,0,1);
+}
+footer p a:hover {
+	color: rgba(0,0,0,1);
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #CDF3F6;
+	text-align: center;
+
+}
+
+footer nav a {
+	color:  #44545E ;
+  text-transform: uppercase;
+	margin: 10px;
+	padding: 10px 15px;
+}
+
+hr {
+color: #44545E;
+background-color: #44545E;
+height: 2px;
+}
+
+footer p a {
+font-family: 'Lato';
+font-weight: 400;
+font-size: 15px;
+color:  #44545E ;
+
+}
+
+
+
+/*
+.footer-a {
+	text-transform: capitalize;
+}
+.upper {
+	text-transform: capitalize;
+}
+ */
+/* .top {
+	padding-top: 10px;
+} */
