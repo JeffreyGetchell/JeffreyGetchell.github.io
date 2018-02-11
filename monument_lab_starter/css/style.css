@@ -1,0 +1,365 @@
+
+/* Add a link to GOOGLE FONTS LINK at the top! THis should be the first line of your stylesheet.*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+
+
+
+
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+/*Note: fix so that images will scale with their containers. We'll chat about this more when we cover responsive design*/
+img {
+	max-width: 100%;
+	margin: 20px 10px 10px 10px;
+	/* padding-top: 100px; */
+}
+
+body {
+margin: 0 auto;
+}
+
+header {
+	 position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+	/* opacity: .6; */
+	z-index: 100;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+a:link {
+  text-decoration: none;
+  /* color: #44545E; */
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+nav {
+	height: auto;
+	text-align: center;
+	margin: 10px;
+	top: 0px;
+	left: 150px;
+}
+
+nav a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #7B98AA;
+  text-decoration: none;
+  text-transform: uppercase;
+	padding: 55px;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-align: center;
+	font-size: 37px ;
+  text-transform: uppercase;
+  /* color:  white ; */
+  padding-top: 300px;
+  letter-spacing: 20px;
+ /* line-height: 100px; */
+}
+
+h2 {
+	  font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		font-size: 23px;
+		text-transform: uppercase;
+		/* color:  white ; */
+}
+.bg-image {
+ background-image: url("../images/home_header_bg.jpg");
+  /* no-repeat center center; */
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 700px;
+ position: sticky;
+ top: 0;
+ z-index: -1;
+	 /*  width: 1000px;
+		 height: auto;
+		 display: block; */
+}
+
+p {
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 15px;
+	color: #44545E;
+
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #44545E;
+  text-transform: uppercase;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+	font-size: 13px;
+  color: #44545E;
+}
+/* ----------------------------------------
+Articles
+------------------------------------------- */
+article {
+	/* position: relative; */
+}
+#blog {
+
+}
+.grid-container {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 10px;
+ /* background-color: white; */
+}
+.padtop1 {
+	padding-top: 100px;
+}
+.padtop2 {
+	padding-top: 35px;
+}
+
+.button_readmore {
+	width: 50%;
+  position: relative;
+  left: 75px;
+	text-transform: uppercase;
+  text-align: center;
+	border: 1px solid #44545E;
+  padding: 5px 20px;
+}
+
+
+/* ----------------------------------------
+About
+------------------------------------------- */
+#about {
+
+}
+#bgcolorblue {
+	background-color: #CDF3F6;
+  height: 500px;
+	padding-top: 50px;
+	/* opacity: .6; */
+}
+#bgcolorblue p {
+	text-align: center;
+	padding: 0 250px;
+}
+
+
+
+/* ----------------------------------------
+Gallery
+------------------------------------------- */
+#gallery {
+
+}
+
+#gallery-h2 {
+	padding-bottom: 20px;
+}
+
+.image-grid-conatiner {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+#contact {
+	
+}
+
+footer {
+	font-family: 'Lato';
+	font-weight: 400;
+	color: #44545E;
+	background-color: #CDF3F6;
+	text-align: center;
+	margin: 20px 0;
+	padding: 5px ;
+}
+ul {
+	list-style: none;
+	width: 100%;
+	margin: 20px ;
+}
+li {
+	display: inline;
+
+}
+ul li a {
+	color: #44545E;
+	padding: 10px;
+}
+
+/* .fa fa-facebook-square fa-lg {
+}
+.fa fa-twitter-square {
+}
+.fa fa-instagram-square {
+}*/
+
+
+footer div {
+	margin: 30px ;
+}
+
+#footer-input {
+	text-transform: uppercase;
+  text-align: center;
+	margin: 0 30px;
+	padding: 10px 55px;
+	border: none;
+}
+#subscribe {
+	display: inline;
+	text-transform: uppercase;
+  text-align: center;
+	border: 1px solid #44545E;
+  padding: 5px 25px;
+}
+
+
+.darkgrey {
+	color: #44545E;
+}
+.white {
+	color: white;
+}
+
+/* make your hovers here..... */
+a:hover {
+	color: rgba(0,0,0,1);
+}
+header h1 a:hover {
+	color: rgba(0,0,0,1);
+	color: #000
+}
+section img:hover {
+	max-width: 125%;
+	/* border: 1px solid black; */
+	opacity: .8;
+	cursor: pointer;
+}
+
+article h4:hover {
+	transition: all .5s ease-in-out;
+		width: 70%;
+		border: 3px solid #44545E;
+		font-style: italic;
+		font-size: 15px;
+	  /* padding: 5px 20px; */
+		cursor: pointer;
+}
+
+/*  Making the site responsive from here.... */
+
+@media screen and (max-width: 960px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+	.bg-image { height: 600px; }
+
+	#bgcolorblue p {
+  	text-align: center;
+  	padding: 0 150px;
+  }
+
+}
+
+
+@media screen and (max-width: 660px) {
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+ .bg-image { height: 500px; }
+
+ #bgcolorblue p {
+ 	text-align: center;
+ 	padding: 0 80px;
+ }
+
+ .image-grid-conatiner {
+ 	display: grid;
+ 	grid-template-columns: repeat(2, 1fr);
+ 	grid-gap: 10px;
+ }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+.bg-image { height: 400px; }
+
+nav a {
+	display: block;
+	padding: 0;
+}
+img {
+	max-width: 80%;
+	margin: 10px 5px 5px 5px;
+	padding-left: 20px;
+}
+
+h1 {
+	font-size: 32px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 16px;
+}
+p {
+	font-size: 12px;
+}
+#bgcolorblue p {
+	text-align: center;
+	padding: 0 20px;
+}
+.image-grid-conatiner {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 5px;
+}
+#subscribe {
+	display: block;
+	width: 40%;
+	position: relative;
+  left: 90px;
+	/* padding: 5px 5px; */
+}
+
+}
