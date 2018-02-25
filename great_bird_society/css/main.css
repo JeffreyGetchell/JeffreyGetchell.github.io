@@ -11,23 +11,3 @@ Base styles:
 img {
   max-width: 100%;
 }
-
-       /* .....font-families........ */
-       /* acta display ,    source sans pro */
-/* .tk-source-sans-pro */
-/* .tk-acta-display */
-
-p {
-  font-family: source-sans-pro, sans-serif;
-font-style: normal;
-font-weight: 300;
-}
-h3 {
-  font-family: acta-display, serif;
-font-style: normal;
-font-weight: 500;
-}
-
-.section-title {
-
-}
