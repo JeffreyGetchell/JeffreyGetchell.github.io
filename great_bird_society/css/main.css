@@ -1,0 +1,13 @@
+
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
