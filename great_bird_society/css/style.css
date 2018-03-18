@@ -2,21 +2,8 @@ h2, h3, h5 {
   font-family: "Acta display", serif;
   color: #a0d8cd; }
 
-/* --------------------------------------------------------------------------
-Base styles:
------------------------------------------------------------------------------ */
-/* Fix to include padding and border in the total width for each element */
-* {
-  box-sizing: border-box; }
-
-/* Fix for responsive images */
-img {
-  max-width: 100%; }
-
-body {
-  width: 100%;
-  margin: 0 auto;
-  background-color: #FFF7E5; }
+html {
+  border: 15px solid #419e8c; }
 
 /* <.........header........> */
 header {
@@ -76,7 +63,7 @@ nav {
     list-style: none;
     transition: all 300ms ease-in-out; }
   nav li:hover {
-    background-color: #99dfd1; }
+    background-color: #c4e7e0; }
   nav a {
     color: #FFF7E5;
     text-decoration: none;
@@ -91,7 +78,102 @@ nav {
   nav li:first-child {
     margin-top: 2em; }
 
-/* <........main container.......> */
+h2, h3, h5 {
+  font-family: "Acta display", serif;
+  color: #a0d8cd; }
+
+/*<.........course galleries.......> */
+#courses1 img {
+  display: none; }
+#courses1 img:first-of-type {
+  display: block; }
+#courses1 div {
+  display: inline-block;
+  width: 50%; }
+
+#courses2 img {
+  display: none; }
+#courses2 img:first-of-type {
+  display: block; }
+#courses2 div {
+  display: inline-block;
+  width: 50%; }
+
+#courses3 img {
+  display: none; }
+#courses3 img:first-of-type {
+  display: block; }
+#courses3 div {
+  display: inline-block;
+  width: 50%; }
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 100%;
+  grid-column-gap: 10px; }
+
+button {
+  background-color: #FFF7E5;
+  border: 2px solid #b8b9c9;
+  border-radius: 200px;
+  font-size: 14px;
+  padding: 1px;
+  margin: 5px; }
+  button p {
+    font-family: "Fondamento";
+    color: #b8b9c9; }
+  button p:hover {
+    background-color: #cdd8e8; }
+  button p:active {
+    background-color: #cdd8e8; }
+
+/* #course-gallery1 {
+grid-column: 1;
+grid-row: 1;
+} */
+/*<.........course galleries end.......> */
+h2, h3, h5 {
+  font-family: "Acta display", serif;
+  color: #a0d8cd; }
+
+/* .....font-families........ */
+/* acta display ,    source sans pro */
+/* .tk-source-sans-pro */
+/* .tk-acta-display */
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box; }
+
+/* Fix for responsive images */
+img {
+  max-width: 100%; }
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #FFF7E5; }
+
+h1 {
+  font-family: "Fondamento";
+  font-size: 2.5em;
+  background-color: #FFF7E5; }
+
+h3 {
+  font-style: normal;
+  font-weight: 500; }
+
+p {
+  font-family: "Source sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #FFF7E5; }
+
+/* <................main container..................> */
 #main-container {
   display: block;
   display: grid;
@@ -134,66 +216,6 @@ nav {
   border: 1px solid #80d2ff;
   border-radius: 200px 200px 200px 0;
   padding: 2px; }
-
-/*<.........course galleries.......> */
-#courses1 img {
-  display: none; }
-#courses1 img:first-of-type {
-  display: block; }
-
-#courses2 img {
-  display: none; }
-#courses2 img:first-of-type {
-  display: block; }
-
-#courses3 img {
-  display: none; }
-#courses3 img:first-of-type {
-  display: block; }
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: 100%;
-  grid-column-gap: 10px; }
-
-button {
-  background-color: #FFF7E5;
-  border: 2px solid #b8b9c9;
-  border-radius: 200px;
-  font-size: 14px;
-  padding: 1px;
-  margin: 5px; }
-  button p {
-    font-family: "Fondamento";
-    color: #b8b9c9; }
-  button p:hover {
-    background-color: #cdd8e8; }
-  button p:active {
-    background-color: #cdd8e8; }
-
-/* #course-gallery1 {
-grid-column: 1;
-grid-row: 1;
-} */
-/* .....font-families........ */
-/* acta display ,    source sans pro */
-/* .tk-source-sans-pro */
-/* .tk-acta-display */
-h1 {
-  font-family: "Fondamento";
-  font-size: 2.5em;
-  background-color: #FFF7E5; }
-
-h3 {
-  font-style: normal;
-  font-weight: 500; }
-
-p {
-  font-family: "Source sans Pro", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  color: #FFF7E5; }
 
 /* ----------------------------------------
  About Us

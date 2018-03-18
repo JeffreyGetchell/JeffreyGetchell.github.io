@@ -1,0 +1,91 @@
+// sass items begin here....
+$font-primary: 'Acta display', serif;
+$font-secondary: 'Source sans Pro', sans-serif ;
+$font-tertiary: 'Fondamento';
+$darkgrey: #b8b9c9;
+$lightgrey: #cdd8e8;
+$blue: #80d2ff;
+$green: #a0d8cd;
+$egg: #FFF7E5;
+
+// @extend goodies here...........//
+%highlight {
+  // background-color: $egg;
+  font-family: $font-primary;
+  color: $green;
+}
+
+/*<.........course galleries.......> */
+#courses1 {
+  img {
+  display: none;
+  }
+  img:first-of-type {
+  display: block;
+  }
+  div {
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+#courses2 {
+  img {
+  display: none;
+  }
+  img:first-of-type {
+  display: block;
+  }
+  div {
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+#courses3 {
+  img {
+  display: none;
+  }
+  img:first-of-type {
+  display: block;
+  }
+  div {
+    display: inline-block;
+    width: 50%;
+  }
+
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 100%;
+  grid-column-gap: 10px;
+}
+button {
+  background-color: $egg;
+  border: 2px solid $darkgrey;
+  border-radius: 200px;
+  font-size: 14px;
+  padding: 1px;
+  margin:  5px;
+  p {
+    font-family: $font-tertiary;
+    color: $darkgrey;
+  }
+  p:hover {
+    background-color: $lightgrey; }
+  p:active {
+    background-color: $lightgrey;
+  }
+
+}
+
+#previous {}
+#next {}
+
+/* #course-gallery1 {
+grid-column: 1;
+grid-row: 1;
+} */
+/*<.........course galleries end.......> */
