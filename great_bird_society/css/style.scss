@@ -15,7 +15,11 @@ $egg: #FFF7E5;
   // background-color: $egg;
   font-family: $font-primary;
   color: $green;
+  text-transform: uppercase;
+  border-bottom: 2px solid 50% $darkgrey;
+  text-shadow:  0 0.032em 0 $darkgrey, 0 0.08em 0.05em $lightgrey;
 }
+
 
 // %highlight-gradient {
 //   background-color: ; linear-gradient(to right, $blue, $green); }
@@ -46,14 +50,15 @@ body {
   background-color: $egg;
 }
 section {
-  // height: 100vh;
+  height: 80vh;
   // overflow: auto;
 }
 
 h1 {
   font-family: $font-tertiary;
-  font-size: 2.5em;
+  font-size: 3em;
   background-color: $egg;
+  text-shadow:  0 0.032em 0 $darkgrey, 0 0.08em 0.05em $lightgrey;
   // @extend %highlight-gradient;
 }
 h2 {
@@ -65,6 +70,8 @@ h3 {
   @extend %highlight;
   font-style: normal;
   font-weight: 500;
+  text-align: center;
+
 }
 
 h4 {
@@ -78,6 +85,8 @@ p {
   font-family: $font-secondary;
   font-style: normal;
   font-weight: 300;
+  font-size: 20px;
+  // line-height: 1.4
   color: $egg;
 }
 
@@ -88,12 +97,15 @@ p {
   display: block;
   display: grid;
   grid-template-columns: 100% ;
-  grid-template-rows: 3fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 
   a:hover {
-    color: darken($blue, 30%);}
+    color: darken($blue, 30%);
+    transition: color .5s;
+  }
   a:active {
     color: darken($blue, 30%);
+    transition: color .5s;
   }
   p {
     // background: lighten($blue, 15%);
@@ -109,7 +121,7 @@ p {
   grid-row: 1;
 
   img {
-    transition: all 1s ease;
+    transition: all 2s ease;
     width: 500px;
     border-radius: 0 200px 200px 200px;
     // border-radius: 200px;
@@ -118,17 +130,71 @@ p {
   }
  .smaller-finch {
    width: 200px;
-
+  transform: rotateY(360deg);
  }
-
 }
-#second-ad {
+
+#flyby {
   grid-column: 1;
   grid-row: 2;
+
+  .flyby-wrapper {
+    max-width: 600px;
+  	margin: 10% auto 30px;
+    // border: 1px solid darken($darkgrey, 20%);
+   opacity: .5;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    display: none;
+  	/* Change arrow color */
+  	// color: $green;
+  	/* Change arrow size */
+  	/*font-size: 30px;*/
+
+  }
 }
-#third-ad {
+
+.fadeout {
+  opacity: .5;
+}
+
+#connect {
   grid-column: 1;
   grid-row: 3;
+  width: 100%;
+  height: 45vh;
+  background-color: lighten( $blue, 15%);
+  text-align: center;
+  margin: 20px 0;
+  padding: 1%;
+  ul {
+    padding-left: 0px;
+    list-style: none;
+    // width: 100%;
+    margin: 20px;
+  }
+  li {
+
+    // display: inline;
+  }
+
+  ul li a {
+  padding: 10px;
+  color: $egg;
+  }
+  a:hover, a:active {
+  cursor: pointer;
+  color: darken( $blue, 10%);
+  transition: color .5s;
+  }
+  // p {
+  //   padding: 1%;
+  // }
+  hr {
+    width: 40%;
+  }
+
 }
 .button_learnmore {
   width: 25%;
@@ -151,27 +217,32 @@ p {
 ------------------------------------------- */
 #about-us
 {
- background-image: url("../images/image_aboutus.png");
- background-repeat: no-repeat;
- background-size: cover;
 
- // background-color: $lightgrey;
- // background-blend-mode: screen;
-  // .info {
-  //   max-width: 100%;
-  //   z-index: 100;
-  // }
-  // p {
-  //   font-family: $font-secondary;
-  //   font-style: normal;
-  //   font-weight: 300
-  //   // background-color: $white;
-  // }
+  background-color: $darkgrey;
 }
 
 #about_wrap {
+
   width: 100%;
+  // height: 80vh;
   margin: 8px 0px 8px 0px;
+  padding-top: 20px;
+  h3 {
+    // padding: 0 20px;
+    text-shadow:  0 0.032em 0 #b0b0b0, 0 0.08em 0.05em rgba(0,0,0,.25);
+  }
+  article{
+    padding: 2%;
+  }
+  article p {
+    margin: 0 auto 20px;
+    text-align: center;
+   // padding: 2% ;
+  }
+  // article p {
+  //   width: 80%;
+  // }
+
 }
 figure {
  //  background-image: url("../images/image_aboutus.jpg");
@@ -192,28 +263,23 @@ Footer
 ------------------------------------------- */
 footer {
   width: 100%;
+  height: 20vh;
   background-color: $lightgrey;
-  ul {
-    list-style: none;
-    width: 100%;
-    margin: 20px ;
-  }
-  li {
-    display: inline;
-
-  }
-  /* ul li a {
-  color: #44545E;
-  padding: 10px;
-} */
-
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 20px;
 }
+
 
 
 // .....Make site responive from here......
 @media screen and (max-width: 960px) {}
 
 @media screen and (max-width: 770px) {
+  p {
+    font-size: 18px;
+  }
+
   /* <........main container.......> */
   #main-ad {
     img {
@@ -239,10 +305,13 @@ footer {
   Base Styles
   ------------------------------------------- */
  section { height: auto;
-  			overflow: auto;
+  			// overflow: auto;
+        button  p {
+          font-size: 12px;
+        }
   		}
  p {
-   font-size: 12px;
+   font-size: 16px;
  }
 
 
@@ -264,6 +333,12 @@ footer {
     grid-template-rows: 100%;
     grid-column-gap: 5px;
   }
+
+
+  #about_wrap {
+    height: 90vh;
+  }
+
 
 
 }

@@ -15,46 +15,66 @@ $egg: #FFF7E5;
   color: $green;
 }
 
-/*<.........course galleries.......> */
-#courses1 {
+%gallerygoods {
+  h3 {
+    text-align: center;
+  }
   img {
   display: none;
+  border-radius: 200px;
   }
   img:first-of-type {
   display: block;
   }
   div {
     display: inline-block;
-    width: 50%;
+    width: 80%;
   }
+}
+
+/*<.........course galleries.......> */
+#courses1 {
+@extend %gallerygoods ;
 }
 
 #courses2 {
-  img {
-  display: none;
-  }
-  img:first-of-type {
-  display: block;
-  }
-  div {
-    display: inline-block;
-    width: 50%;
-  }
+@extend %gallerygoods ;
 }
 
 #courses3 {
-  img {
-  display: none;
+@extend %gallerygoods ;
+}
+
+#partners {
+  height: 25vh;
+
+  h4 {
+    text-align: center;
+    color: $egg;
+    background-color: $darkgrey;
+    border-left: 1px solid darken($darkgrey, 20%);
+    border-right: 1px solid darken($darkgrey, 20%);
+    border-bottom: 2px solid darken($darkgrey, 30%);
   }
-  img:first-of-type {
-  display: block;
+
+  .partners-wrapper {
+    max-width: 600px;
+  	margin: 0 auto 30px;
+    border: 1px solid darken($darkgrey, 20%);
+
   }
-  div {
-    display: inline-block;
-    width: 50%;
+  .slick-next:before,
+  .slick-prev:before {
+  	/* Change arrow color */
+  	color: $green;
+  	/* Change arrow size */
+  	/*font-size: 30px;*/
+
   }
 
 }
+
+
 
 .gallery-grid {
   display: grid;

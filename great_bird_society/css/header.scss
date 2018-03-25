@@ -1,6 +1,6 @@
 // sass items begin here....
 $font-primary: 'Acta display', serif;
-$font-secondary: 'Source sans Pro', sans-serif ;
+$font-secondary: 'Source sans Pro', sans-serif;
 $font-tertiary: 'Fondamento';
 $darkgrey: #b8b9c9;
 $lightgrey: #cdd8e8;
@@ -15,7 +15,8 @@ $egg: #FFF7E5;
   color: $green;
 }
 html {
-  border: 15px solid #419e8c;
+  border: 1.7em solid #419e8c;
+
 }
 // <.......screen border overlay.......>
 // html::after, html::before,
@@ -53,14 +54,15 @@ html {
 
 /* <.........header........> */
 header {
+  height: 30vh;
   display: grid;
-  grid-template-columns: 17.5% 30% 52.5% ;
+  grid-template-columns: 17.5% 83.5% ;
   width: 100%;
 }
 
 
 #logo {
-
+// text-shadow:  0 0.032em 0 #b0b0b0, 0 0.08em 0.05em rgba(0,0,0,.25);
 }
 #header-actions {
 
@@ -76,8 +78,10 @@ header {
 .line {
   border-bottom: 5px solid $green;
   width: 35px;
-  margin-left: 20px;
+  margin-left: 7px;
   margin-bottom: 6px;
+  box-shadow: 0 0.032em 0 $darkgrey, 0 0.08em 0.05em $lightgrey;
+
 }
 .line:first-child {
   margin-top: 30px;
@@ -97,10 +101,11 @@ border: solid 1px $darkgrey;
 }
 .close {
   position: absolute;
-  top: 10px;
-  right: 20px;
+  top: 5px;
+  right: 5px;
   text-transform: capitalize;
   font-size: 20px;
+  font-family: $font-tertiary;
 }
 // <<..............navigation...........>>
 nav {
@@ -120,6 +125,7 @@ nav {
     letter-spacing: 1px;
     padding: 1rem 1rem 0;
     background-color: $green;
+
   }
 
   li {
@@ -130,6 +136,8 @@ nav {
 
   li:hover {
     background-color: lighten( $green, 10%);
+    // hover on
+    transition: background-color 1s;
   }
 
   a {
@@ -141,9 +149,13 @@ nav {
     letter-spacing: 1px;
     padding: 1rem;
     display: block;
+    // hover off
+    transition: padding 2s;
+
   }
   a:active {
     background-color: saturate( $green, 10%);
+    transition: background-color 1s;
   }
 
   li:first-child {
