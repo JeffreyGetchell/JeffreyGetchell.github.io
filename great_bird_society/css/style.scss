@@ -128,10 +128,10 @@ p {
     margin-left: 10px;
     opacity: .7;
   }
- .smaller-finch {
-   width: 200px;
-  transform: rotateY(360deg);
- }
+  .smaller-finch {
+    width: 200px;
+    transform: rotateY(360deg);
+  }
 }
 
 #flyby {
@@ -140,17 +140,17 @@ p {
 
   .flyby-wrapper {
     max-width: 600px;
-  	margin: 10% auto 30px;
+    margin: 10% auto 30px;
     // border: 1px solid darken($darkgrey, 20%);
-   opacity: .5;
+    opacity: .5;
   }
   .slick-next:before,
   .slick-prev:before {
     display: none;
-  	/* Change arrow color */
-  	// color: $green;
-  	/* Change arrow size */
-  	/*font-size: 30px;*/
+    /* Change arrow color */
+    // color: $green;
+    /* Change arrow size */
+    /*font-size: 30px;*/
 
   }
 }
@@ -180,13 +180,13 @@ p {
   }
 
   ul li a {
-  padding: 10px;
-  color: $egg;
+    padding: 10px;
+    color: $egg;
   }
   a:hover, a:active {
-  cursor: pointer;
-  color: darken( $blue, 10%);
-  transition: color .5s;
+    cursor: pointer;
+    color: darken( $blue, 10%);
+    transition: color .5s;
   }
   // p {
   //   padding: 1%;
@@ -213,7 +213,7 @@ p {
 }
 
 /* ----------------------------------------
- About Us
+About Us
 ------------------------------------------- */
 #about-us
 {
@@ -237,7 +237,7 @@ p {
   article p {
     margin: 0 auto 20px;
     text-align: center;
-   // padding: 2% ;
+    // padding: 2% ;
   }
   // article p {
   //   width: 80%;
@@ -245,17 +245,17 @@ p {
 
 }
 figure {
- //  background-image: url("../images/image_aboutus.jpg");
- //  background-size: cover;
- //  background-repeat: no-repeat;
- //  transition: all 1s ease;
- //  width: 80%;
- //  height: 500px;
- //  border-radius: 200px;
- //  margin-left: 10px;
- //  opacity: .5;
- // z-index: -100;
- // display: block;
+  //  background-image: url("../images/image_aboutus.jpg");
+  //  background-size: cover;
+  //  background-repeat: no-repeat;
+  //  transition: all 1s ease;
+  //  width: 80%;
+  //  height: 500px;
+  //  border-radius: 200px;
+  //  margin-left: 10px;
+  //  opacity: .5;
+  // z-index: -100;
+  // display: block;
 }
 
 /* ----------------------------------------
@@ -285,9 +285,9 @@ footer {
     img {
       max-width: 100%;
     }
-   .smaller-finch {
-     max-width: 30%;
-   }
+    .smaller-finch {
+      max-width: 30%;
+    }
 
   }
 
@@ -304,15 +304,15 @@ footer {
   /* ----------------------------------------
   Base Styles
   ------------------------------------------- */
- section { height: auto;
-  			// overflow: auto;
-        button  p {
-          font-size: 12px;
-        }
-  		}
- p {
-   font-size: 16px;
- }
+  section { height: auto;
+    // overflow: auto;
+    button  p {
+      font-size: 12px;
+    }
+  }
+  p {
+    font-size: 16px;
+  }
 
 
   /* <........main container.......> */
@@ -321,9 +321,9 @@ footer {
     img {
       max-width: 90%;
     }
-   .smaller-finch {
-     max-width: 30%;
-   }
+    .smaller-finch {
+      max-width: 30%;
+    }
 
   }
 

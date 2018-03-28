@@ -20,11 +20,11 @@ $egg: #FFF7E5;
     text-align: center;
   }
   img {
-  display: none;
-  border-radius: 200px;
+    display: none;
+    border-radius: 200px;
   }
   img:first-of-type {
-  display: block;
+    display: block;
   }
   div {
     display: inline-block;
@@ -34,15 +34,15 @@ $egg: #FFF7E5;
 
 /*<.........course galleries.......> */
 #courses1 {
-@extend %gallerygoods ;
+  @extend %gallerygoods ;
 }
 
 #courses2 {
-@extend %gallerygoods ;
+  @extend %gallerygoods ;
 }
 
 #courses3 {
-@extend %gallerygoods ;
+  @extend %gallerygoods ;
 }
 
 #partners {
@@ -59,16 +59,16 @@ $egg: #FFF7E5;
 
   .partners-wrapper {
     max-width: 600px;
-  	margin: 0 auto 30px;
+    margin: 0 auto 30px;
     border: 1px solid darken($darkgrey, 20%);
 
   }
   .slick-next:before,
   .slick-prev:before {
-  	/* Change arrow color */
-  	color: $green;
-  	/* Change arrow size */
-  	/*font-size: 30px;*/
+    /* Change arrow color */
+    color: $green;
+    /* Change arrow size */
+    /*font-size: 30px;*/
 
   }
 
@@ -95,17 +95,17 @@ button {
   }
   p:hover {
     background-color: $lightgrey; }
-  p:active {
-    background-color: $lightgrey;
+    p:active {
+      background-color: $lightgrey;
+    }
+
   }
 
-}
+  #previous {}
+  #next {}
 
-#previous {}
-#next {}
-
-/* #course-gallery1 {
-grid-column: 1;
-grid-row: 1;
+  /* #course-gallery1 {
+  grid-column: 1;
+  grid-row: 1;
 } */
 /*<.........course galleries end.......> */

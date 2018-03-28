@@ -7,7 +7,7 @@ $('.hamburger').on('click', function(){
 
 $('.close').on('click', function(event){
   event.preventDefault()
-   $('.sidebar').removeClass('active');
+  $('.sidebar').removeClass('active');
 });
 
 // main img is going to transition from 500px to a smaller size of 200px,
@@ -26,26 +26,23 @@ $(window).on('scroll', function () {
     $('img').removeClass('smaller-finch');
     // $('html','body', 'html::after', 'html::before',
     // 'body::after', 'body::before').css('background-color','#419e8c');
-   $('html').css('border-color','#419e8c');
+    $('html').css('border-color','#419e8c');
   }
 
 
 });
 
 $(window).on('scroll', function () {
- var distanceScrolled = $(window).scrollTop();
- if(distanceScrolled > 1800){
-  $('html').css('border-color','#419e8c').css('transition', 'all 2.5s ease');
+  var distanceScrolled = $(window).scrollTop();
+  if(distanceScrolled > 1800){
+    $('html').css('border-color','#419e8c').css('transition', 'all 2.5s ease');
 
-}
-// else {
-//   $('html').css('border-color','#c4e7e0');
-// }
+  }
+  // else {
+  //   $('html').css('border-color','#c4e7e0');
+  // }
 
 });
-
-
-
 
 
 // <<...............fadeout hawk  slick .........>>
