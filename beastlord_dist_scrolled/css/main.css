@@ -1,0 +1,57 @@
+
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+html {
+  border: 1.7em solid #242626;
+
+}
+
+/* Fix for responsive images */
+img {
+  /* max-width: 100%; */
+  transition: all 1s ease;
+  width: 50%;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  /* // add padding to create room for the overlay border.
+  padding: 1em; */
+  /* background-color: ; */
+}
+
+header {
+  /* text-align:center; */
+}
+
+main {
+  /* text-align:center; */
+  color: #990803;
+  font-family: serif;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto;
+
+  line-height: 1.6;
+}
+h1 {
+  text-align: left;
+}
+
+article p {
+  text-align: justify;
+  text-indent: 100px;
+  /* position: absolute;
+  bottom: -50;
+  right: -100; */
+}
+
+.smallerlogo {
+  width: 20%;
+
+}
