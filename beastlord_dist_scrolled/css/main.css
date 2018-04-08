@@ -41,6 +41,7 @@ main {
 }
 h1 {
   text-align: left;
+  letter-spacing: 1px;
 }
 
 article p {
