@@ -92,6 +92,7 @@ h2 {
  position: sticky;
  top: 0;
  z-index: -1;
+ opacity: .5;
 	 /*  width: 1000px;
 		 height: auto;
 		 display: block; */
@@ -193,7 +194,7 @@ Gallery
 Footer
 ------------------------------------------- */
 #contact {
-	
+
 }
 
 footer {
