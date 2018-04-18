@@ -7,17 +7,29 @@
   		<meta name="viewport" content="width=device-width, initial-scale=1">
  		<!-- doc title & part of web address -->
 		<title>odetokarate</title>
-		
+
 		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
-				<!--[if IE]> 
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+				<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+ <!--         smooth scroll credit to: https://github.com/kswedberg/jquery-smooth-scroll -->
+ <!--         add the smooth-scroll javascript -->
+    <script src="jquery.smooth-scroll.js"></script>
+ <!--         call the smoothScroll function for the nav a elements -->
+    <script>
+        $(document).ready(function() {
+            $('nav.smoothnav a').smoothScroll();
+        });
+
+    </script>
+
 	  </head>
 
 	  <body>
-	  	<nav>
+	  	<nav class="smoothnav">
 		  	<ul class="navigation">
 		    <li class="nav-item"><a href="#home">Home</a></li>
 		    <li class="nav-item"><a href="#ourprograms">OurPrograms</a></li>
@@ -28,7 +40,7 @@
 		 </nav>
 		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
 		<label for="nav-trigger"></label>
-		 
+
 		<div class="site-wrap">
    		 <!-- insert the rest of your page markup here -->
 
@@ -41,22 +53,22 @@
 			     		<div id="logo">
 			     			<img src="okkaratelogo.png" alt="my karate logo" title="okkarate logo">
 			     		</div>
-			 
+
 					 </header>
-		 
-					 	<div class="container">	
-					 		
+
+					 	<div class="container">
+
 					 		<img src="homefront.jpg" alt="front of dojo" title="oriental building">
-					 		
+
 					 	</div>
-					 	
+
 					 	<h3>Learn</h3>
-			 				 
+
 			 			<h2 class="styledslogan">Martial Arts and Fitness</h2>
-			  			
-			 	 	 
+
+
 				 </div>
-			</section> 
+			</section>
 
 			<section id="ourprograms">
 				<div class="master">
@@ -69,7 +81,7 @@
 						<div class="gap"></div>
 						<h3>Cardio KickBoxing</h3>
 						<h4>FITNESS:</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis efficitur ligula eu egestas. In id pellentesque lectus, sed feugiat urna. Nulla vel nisi augue. Sed massa risus, eleifend a quam et, tempor aliquet metus.</p>				  
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis efficitur ligula eu egestas. In id pellentesque lectus, sed feugiat urna. Nulla vel nisi augue. Sed massa risus, eleifend a quam et, tempor aliquet metus.</p>
 					</article>
 
 				</div>
@@ -80,7 +92,7 @@
 					<h2 class="styledslogan top2">instructors</h2>
 					<div class="container" id="container_margin">
 						<img src="instructors.jpg" alt="pic of the instructors" title="instuctors">
-						
+
 					</div>
 
 				</div>
@@ -110,8 +122,8 @@
 						<br>
 						<abbr title="Phone">P:</abbr>
 						<strong>603-889-1234</strong></span>
-					</div>		
-				</div>	
+					</div>
+				</div>
 					<p>
 			    <a href="https://jigsaw.w3.org/css-validator/check/referer">
 			        <img style="border:0;width:88px;height:31px"
@@ -121,10 +133,10 @@
 				</p>
 				<footer>
 		 	 		<p>&copy; 2015 Designed By</p> <a href="https://jeffreygetchell.github.io/week10/manymooons/index.html">Jeffrey Getchell</a>
-		 	 </footer>	
+		 	 </footer>
 			</section>
-			
-		</div>	 
+
+		</div>
 	  </body>
 
 </html>
