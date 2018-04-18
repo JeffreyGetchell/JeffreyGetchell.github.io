@@ -7,6 +7,18 @@
 	  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:400,600" rel="stylesheet">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+ <!--         smooth scroll credit to: https://github.com/kswedberg/jquery-smooth-scroll -->
+ <!--         add the smooth-scroll javascript -->
+    <script src="jquery.smooth-scroll.js"></script>
+ <!--         call the smoothScroll function for the nav a elements -->
+    <script>
+        $(document).ready(function() {
+            $('.smoothnav a').smoothScroll();
+        });
+
+    </script>
 
   </head>
 
@@ -18,7 +30,7 @@
 
    <header>
 
-	   <nav>
+	   <nav class="smoothnav">
 	       <a href="#about">About</a>
 	       <a href="#gallery">Gallery</a>
 	       <a href="#blog">Blog</a>
@@ -102,9 +114,8 @@
 					</div>
        </div>
    </section>
-
+  <footer>
    </div>
-   <footer>
 <!-- Insert FontAwesome Icons -->
       <section id="contact">
        <ul>
@@ -113,14 +124,16 @@
 			   <li><a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
        </ul>
 <!-- I've given you this one, but look it up to see what it's used for :) -->
+
       <div>
          <input type="text" placeholder="Email Address" id="footer-input">
 	       <p id="subscribe">Subscribe</p>
       </div>
       <hr>
-      <p>&copy;2016 Sarah Holden</p>
+      <p>&copy;2016 Sarah Holden & Jeff Getchell</p>
     </section>
    </footer>
+
 
   </body>
 </html>
