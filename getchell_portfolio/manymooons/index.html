@@ -11,10 +11,22 @@
 
 		<link rel="stylesheet" type="text/css" href="reset.css" >
 		<link rel="stylesheet" type="text/css" href="style.css" >
-		<!--[if IE]> 
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 			<![endif]-->
-					
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	 <!--         smooth scroll credit to: https://github.com/kswedberg/jquery-smooth-scroll -->
+	 <!--         add the smooth-scroll javascript -->
+	    <script src="jquery.smooth-scroll.js"></script>
+	 <!--         call the smoothScroll function for the nav a elements -->
+	    <script>
+	        $(document).ready(function() {
+	            $('ul.smoothnav a').smoothScroll();
+	        });
+
+	    </script>
+
 	  </head>
 
 	  <body>
@@ -22,26 +34,26 @@
 	 	 <section id="intro">
 
 			<div class="master">
-			
-				<header>
+
+		<header>
 
             		<div id="largelogo">
-            		<img src="manymooonzlogo3b.png" alt="my cool logo" title="manymooonz logo">					
-					</div>	
-					                
-	                <nav>
+            		<img src="manymooonzlogo3b.png" alt="my cool logo" title="manymooonz logo">
+					</div>
 
-			 		<ul>				
+	      <nav>
+
+			 		<ul class="smoothnav">
 						<li class="button"><a href="#intro">Intro</a></li>
 						<li class="button"><a href="#designz">Designz</a></li>
 						<li class="button"><a href="#portraitz">Portraitz</a></li>
 						<li class="button"><a href="#about">About</a></li>
 					</ul>
-			 		
-			 		</nav>
 
-	            </header>
-	            
+			  </nav>
+
+	  </header>
+
 
 	            <div class="clearfix" id="container2">
 	            	<h2> Hello I'm Jeffrey Getchell, this is my web showcase.</h2>
@@ -55,8 +67,8 @@
 	        </div>
 
 
-			 		
-			 		
+
+
 
 		</section>
 
@@ -71,31 +83,31 @@
 				 			<figure>
 				 				<img src="jeffgetchell.jpg" alt="personal graphic that bears my name,jeff getchell" title="jeff getchell logo">
 				 				<!-- <figcaption>On Location</figcaption> -->
-				 			</figure>				 			
+				 			</figure>
 				 		</div>
 				 		<div class="col_1">
 				 			<figure>
 				 				<img src="masterforce.jpg" alt="my linear graphic that has two words vertical side by side" title="masterforce">
 				 				<!-- <figcaption>On Location</figcaption> -->
-				 			</figure>				 			
+				 			</figure>
 				 		</div>
-		                
+
 				 		<div class="col_1">
 				 			<figure>
 				 				<img src="thebeastlord.jpg" alt="my graphic created with godzilla typeface" title="thebeastlord">
 				 				<!-- <figcaption>On Location</figcaption> -->
-				 			</figure>				 			
+				 			</figure>
 				 		</div>
 
 							<!-- <img src="pgscreenshot2.jpg">
 					 		<h3>Pizza Place Project </h3> -->
-			 	</div>	
+			 	</div>
 			</div>
 
 		</section>
 
 		<section id="portraitz">
-			<div class="clearfix master">		
+			<div class="clearfix master">
 				<div class="imggallery">
 						<div>
 							<h2 class="sectionh2">PORTRAITZ</h2>
@@ -106,7 +118,7 @@
 				 				<img src="dazy.jpg" alt="a calm and beautiful portrait of my favorite dog dazy" title="dazy">
 				 				<!-- <figcaption>On Location</figcaption> -->
 				 			</figure>
-				 			
+
 				 		</div>
 
 				 		<div class="col_1">
@@ -114,7 +126,7 @@
 				 				<img src="paul.jpg" alt="candid image of paul with toy binoculars" title="paul">
 				 				<!-- <figcaption>On Location</figcaption> -->
 				 			</figure>
-				 			
+
 				 		</div>
 
 				 		<div class="col_1">
@@ -122,9 +134,9 @@
 				 				<img src="andy.jpg" alt="portrait of andy geared up on his motorcycle" title="andy">
 				 				<!-- <figcaption>On Location</figcaption> -->
 				 			</figure>
-				 			
+
 				 		</div>
-				</div>	
+				</div>
 			</div>
 
 		</section>
@@ -137,23 +149,23 @@
 						<h2 class="sectionh2">ABOUT</h2>
 						<hr>
 					</div>
-				
-				
+
+
 					<div class="col_1">
 
 					 	<img src="myjazzcover.jpg" alt="a self-portrait of me pondering with a crazy angle" title="myjazzcover">
-					 </div>	
+					 </div>
 
 					 	<div class="col_1">
 					 		<h3>Contact Me:</h3>
 					 		<p>603-566-1598</p>
 					 		<p>getchell.jeffrey@gmail.com</p>
 					 		<p>Located in the beautiful small city of Nashua,N.H.</p>
-					 	</div>	
+					 	</div>
 					 	<div class="col_1">
 					 		<h3>Skillz:</h3>
 					 		<h4>CSS</h4>
-					 		<h4>HTML</h4>				
+					 		<h4>HTML</h4>
 					 		<h4>RESPONSIVE</h4>
 					 		<h4>VISUAL DESIGN</h4>
 					 		<h4>PHOTOSHOP</h4>
@@ -166,10 +178,10 @@
 						            alt="Valid CSS!" />
 						    </a>
 							</p>
-					 	</div>		
+					 	</div>
 
-					
-				</div>		
+
+				</div>
 
 			</div>
 
@@ -179,7 +191,7 @@
 
 
 
-		
+
 
 
 	  </body>
