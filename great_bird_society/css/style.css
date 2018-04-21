@@ -335,6 +335,9 @@ footer {
   /* ----------------------------------------
   Base Styles
   ------------------------------------------- */
+  nav {
+    height: 90%; }
+
   section {
     height: auto; }
     section button p {
