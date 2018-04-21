@@ -10,6 +10,8 @@ $('.close').on('click', function(event){
   $('.sidebar').removeClass('active');
 });
 
+
+
 // main img is going to transition from 500px to a smaller size of 200px,
 // when user scrolls down
 $(window).on('scroll', function () {
@@ -179,7 +181,6 @@ $('.partners-wrapper').slick({
   // autoplay: true,
   // autoplaySpeed: 2000,
 });
-
 
 
 

@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
   <!-- Add your site content here. Keep it pretty and use indentation :) -->
@@ -32,7 +33,7 @@
     <nav class="sidebar">
       <a href="#" class="close">x</a>
       <h3>Main Menu</h3>
-      <ul>
+      <ul class="smoothnav">
         <li><a href="#logo">Home</a></li>
         <li><a href="#connect">Connect</a></li>
         <li><a href="#courses1">Galleries</a></li>
@@ -96,7 +97,7 @@
     <!-- <p>connect</p> -->
     <!-- Insert FontAwesome Icons -->
     <section id="connect">
-      <div class="">
+      <div>
         <ul>
           <li><a href="#"><i class="fa fa-camera-retro fa-3x" aria-hidden="true"></i></a></li>
           <hr>
@@ -132,7 +133,6 @@
       <img src="images/image-8.jpg" alt="image_8">
     </div>
     <button id="next1"><p> >> </p>  </button>
-
 
     <!-- <h3>hi</h3>
     <h3>hi</h3>
@@ -241,6 +241,18 @@
 </footer>
 
 <script src="js/jquery-1.12.0.min.js"></script>
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--         add jquery functionality to your site -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<!--         smooth scroll credit to: https://github.com/kswedberg/jquery-smooth-scroll -->
+<!--         add the smooth-scroll javascript -->
+<script src="js/jquery.smooth-scroll.js"></script>
+<!-- call the smoothScroll function for the nav a elements -->
+<!-- <script>
+     $(document).ready(function() {
+         $('nav ul.smoothnav a').smoothScroll();
+     });
+</script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="js/main.js"></script>
 </body>
