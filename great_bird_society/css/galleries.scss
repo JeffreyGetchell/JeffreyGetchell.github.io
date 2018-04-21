@@ -28,7 +28,7 @@ $egg: #FFF7E5;
   }
   div {
     display: inline-block;
-    width: 80%;
+    // width: 80%;
   }
 }
 
@@ -59,7 +59,7 @@ $egg: #FFF7E5;
 
   .partners-wrapper {
     max-width: 600px;
-    margin: 0 auto 30px;
+    margin: 0 auto;
     border: 1px solid darken($darkgrey, 20%);
 
   }

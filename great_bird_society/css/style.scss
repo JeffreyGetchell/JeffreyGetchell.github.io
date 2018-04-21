@@ -117,6 +117,9 @@ p {
 
   }
 }
+
+/* <<.............Celebration!!.............>> */
+
 #main-ad {
   grid-column: 1;
   grid-row: 1;
@@ -135,12 +138,26 @@ p {
   }
 }
 
+.button_learnmore {
+  width: 25%;
+  position: relative;
+  left: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid $blue;
+  border-radius: 200px 200px 200px 0;
+  padding: 2px;
+}
+
+
+/* <<.............Liberate with nature.............>> */
+
 #flyby {
   grid-column: 1;
   grid-row: 2;
 
   .flyby-wrapper {
-    max-width: 600px;
+    max-width: 500px;
     margin: 10% auto 30px;
     // border: 1px solid darken($darkgrey, 20%);
     opacity: .5;
@@ -159,6 +176,8 @@ p {
 .fadeout {
   opacity: .5;
 }
+
+/* <<.............social media..........>> */
 
 #connect {
   grid-column: 1;
@@ -197,17 +216,9 @@ p {
   }
 
 }
-.button_learnmore {
-  width: 25%;
-  position: relative;
-  left: 10px;
-  text-transform: uppercase;
-  text-align: center;
-  border: 1px solid $blue;
-  border-radius: 200px 200px 200px 0;
-  padding: 2px;
+.right-align {
+  text-align: right;
 }
-
 
 .section-title {
 
@@ -292,6 +303,15 @@ footer {
 
   }
 
+  #flyby {
+
+    .flyby-wrapper {
+      max-width: 350px;
+      margin: 0 auto;
+    }
+
+  }
+
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
@@ -346,6 +366,15 @@ footer {
     }
     .smaller-finch {
       max-width: 30%;
+    }
+
+  }
+
+  #flyby {
+
+    .flyby-wrapper {
+      max-width: 200px;
+      margin: 0 auto;
     }
 
   }

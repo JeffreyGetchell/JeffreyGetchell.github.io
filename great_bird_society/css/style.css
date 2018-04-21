@@ -7,7 +7,7 @@ html {
 
 /* <.........header........> */
 header {
-  height: 30vh;
+  height: 40vh;
   display: grid;
   grid-template-columns: 17.5% 83.5%;
   width: 100%; }
@@ -96,8 +96,7 @@ h2, h3, h5 {
 #courses1 img:first-of-type, #courses2 img:first-of-type, #courses3 img:first-of-type {
   display: block; }
 #courses1 div, #courses2 div, #courses3 div {
-  display: inline-block;
-  width: 80%; }
+  display: inline-block; }
 
 /*<.........course galleries.......> */
 #partners {
@@ -111,7 +110,7 @@ h2, h3, h5 {
     border-bottom: 2px solid #646684; }
   #partners .partners-wrapper {
     max-width: 600px;
-    margin: 0 auto 30px;
+    margin: 0 auto;
     border: 1px solid #7e809d; }
   #partners .slick-next:before,
   #partners .slick-prev:before {
@@ -212,6 +211,7 @@ p {
     color: #80d2ff;
     text-decoration: none; }
 
+/* <<.............Celebration!!.............>> */
 #main-ad {
   grid-column: 1;
   grid-row: 1; }
@@ -225,11 +225,22 @@ p {
     width: 200px;
     transform: rotateY(360deg); }
 
+.button_learnmore {
+  width: 25%;
+  position: relative;
+  left: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #80d2ff;
+  border-radius: 200px 200px 200px 0;
+  padding: 2px; }
+
+/* <<.............Liberate with nature.............>> */
 #flyby {
   grid-column: 1;
   grid-row: 2; }
   #flyby .flyby-wrapper {
-    max-width: 600px;
+    max-width: 500px;
     margin: 10% auto 30px;
     opacity: .5; }
   #flyby .slick-next:before,
@@ -242,6 +253,7 @@ p {
 .fadeout {
   opacity: .5; }
 
+/* <<.............social media..........>> */
 #connect {
   grid-column: 1;
   grid-row: 3;
@@ -265,15 +277,8 @@ p {
   #connect hr {
     width: 40%; }
 
-.button_learnmore {
-  width: 25%;
-  position: relative;
-  left: 10px;
-  text-transform: uppercase;
-  text-align: center;
-  border: 1px solid #80d2ff;
-  border-radius: 200px 200px 200px 0;
-  padding: 2px; }
+.right-align {
+  text-align: right; }
 
 /* ----------------------------------------
 About Us
@@ -313,6 +318,10 @@ footer {
     max-width: 350px; }
   #main-ad .smaller-finch {
     max-width: 30%; }
+
+  #flyby .flyby-wrapper {
+    max-width: 350px;
+    margin: 0 auto; }
 
   .gallery-grid {
     display: grid;
@@ -355,6 +364,10 @@ footer {
     max-width: 80%; }
   #main-ad .smaller-finch {
     max-width: 30%; }
+
+  #flyby .flyby-wrapper {
+    max-width: 200px;
+    margin: 0 auto; }
 
   .gallery-grid {
     display: grid;
