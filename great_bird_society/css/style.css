@@ -7,7 +7,7 @@ html {
 
 /* <.........header........> */
 header {
-  height: 40vh;
+  height: 50vh;
   display: grid;
   grid-template-columns: 17.5% 83.5%;
   width: 100%; }
@@ -368,6 +368,9 @@ footer {
   #flyby .flyby-wrapper {
     max-width: 200px;
     margin: 0 auto; }
+
+  #connect {
+    height: 70vh; }
 
   .gallery-grid {
     display: grid;
