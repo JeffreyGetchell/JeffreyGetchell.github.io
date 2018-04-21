@@ -99,6 +99,15 @@ h2, h3, h5 {
   display: inline-block; }
 
 /*<.........course galleries.......> */
+#courses1 {
+  text-align: center; }
+
+#courses2 {
+  text-align: center; }
+
+#courses3 {
+  text-align: center; }
+
 #partners {
   height: 25vh; }
   #partners h4 {
@@ -215,6 +224,15 @@ p {
 #main-ad {
   grid-column: 1;
   grid-row: 1; }
+  #main-ad .button_learnmore {
+    width: 25%;
+    position: relative;
+    left: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #80d2ff;
+    border-radius: 200px 200px 200px 0;
+    padding: 2px; }
   #main-ad img {
     transition: all 2s ease;
     width: 500px;
@@ -224,16 +242,6 @@ p {
   #main-ad .smaller-finch {
     width: 200px;
     transform: rotateY(360deg); }
-
-.button_learnmore {
-  width: 25%;
-  position: relative;
-  left: 10px;
-  text-transform: uppercase;
-  text-align: center;
-  border: 1px solid #80d2ff;
-  border-radius: 200px 200px 200px 0;
-  padding: 2px; }
 
 /* <<.............Liberate with nature.............>> */
 #flyby {
@@ -370,7 +378,7 @@ footer {
     margin: 0 auto; }
 
   #connect {
-    height: 70vh; }
+    height: 65vh; }
 
   .gallery-grid {
     display: grid;

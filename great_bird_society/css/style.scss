@@ -121,8 +121,20 @@ p {
 /* <<.............Celebration!!.............>> */
 
 #main-ad {
+  // text-align: center;
   grid-column: 1;
   grid-row: 1;
+
+  .button_learnmore {
+    width: 25%;
+    position: relative;
+    left: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid $blue;
+    border-radius: 200px 200px 200px 0;
+    padding: 2px;
+  }
 
   img {
     transition: all 2s ease;
@@ -136,18 +148,11 @@ p {
     width: 200px;
     transform: rotateY(360deg);
   }
+
+
 }
 
-.button_learnmore {
-  width: 25%;
-  position: relative;
-  left: 10px;
-  text-transform: uppercase;
-  text-align: center;
-  border: 1px solid $blue;
-  border-radius: 200px 200px 200px 0;
-  padding: 2px;
-}
+
 
 
 /* <<.............Liberate with nature.............>> */
@@ -361,6 +366,7 @@ footer {
   /* <........main container.......> */
 
   #main-ad {
+
     img {
       max-width: 80%;
     }
@@ -380,7 +386,7 @@ footer {
   }
 
   #connect {
-    height: 70vh;
+    height: 65vh;
   }
 
   .gallery-grid {
