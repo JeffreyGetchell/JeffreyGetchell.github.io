@@ -51,7 +51,7 @@ body {
   background-color: $egg;
 }
 section {
-  height: 80vh;
+  height: 100vh;
   // overflow: auto;
 }
 
@@ -313,14 +313,15 @@ footer {
     }
 
   }
-
+  
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
     grid-template-rows: 100%;
     grid-column-gap: 7px;
   }
-  section { height: auto;
+  section {
+    // height: auto;
     // overflow: auto;
     button  p {
       font-size: 12px;
@@ -329,10 +330,10 @@ footer {
   p {
     font-size: 18px;
   }
-  img {
-    max-width: 350px;
-    max-height: 350px;
-  }
+  // img {
+  //   max-width: 350px;
+  //   max-height: 350px;
+  // }
 
 
 
@@ -370,11 +371,9 @@ footer {
     .smaller-finch {
       max-width: 30%;
     }
-
   }
 
   #flyby {
-
     .flyby-wrapper {
       max-width: 200px;
       margin: 0 auto;
@@ -385,6 +384,13 @@ footer {
   #connect {
     height: 65vh;
   }
+
+ #courses1 {
+   .gallery-wrapper {
+     max-width: 200px;
+     margin: 0 auto;
+   }
+ }
 
   .gallery-grid {
     display: grid;

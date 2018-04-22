@@ -20,22 +20,40 @@ $egg: #FFF7E5;
     text-align: center;
   }
   img {
-    display: none;
+    // display: none;
     border-radius: 200px;
   }
-  img:first-of-type {
-    display: block;
-  }
-  div {
-    display: inline-block;
-    // width: 80%;
-  }
+  // img:first-of-type {
+  //   display: block;
+  // }
+  // div {
+  //   display: inline-block;
+  //   width: 80%;
+  // }
 }
 
 /*<.........course galleries.......> */
 #courses1 {
-      text-align: center;
+  grid-column: 1;
+  grid-row: 1;
+      // text-align: center;
   @extend %gallerygoods ;
+
+  .gallery-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    // border: 1px solid darken($darkgrey, 20%);
+    // opacity: .5;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    // display: none;
+    /* Change arrow color */
+    color: $green;
+    /* Change arrow size */
+    /*font-size: 30px;*/
+
+  }
 }
 
 #courses2 {
@@ -46,6 +64,7 @@ $egg: #FFF7E5;
 #courses3 {
       text-align: center;
   @extend %gallerygoods ;
+
 }
 
 #partners {
@@ -77,36 +96,37 @@ $egg: #FFF7E5;
 
 }
 
-.gallery-grid {
+/*.gallery-grid {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: 100%;
   grid-column-gap: 10px;
-}
-button {
-  background-color: $egg;
-  border: 2px solid $darkgrey;
-  border-radius: 200px;
-  font-size: 14px;
-  padding: 1px;
-  margin:  5px;
-  p {
-    font-family: $font-tertiary;
-    color: $darkgrey;
-  }
-  p:hover {
-    background-color: $lightgrey; }
-    p:active {
-      background-color: $lightgrey;
-    }
+}*/
 
-  }
-
-  #previous {}
-  #next {}
+// button {
+//   background-color: $egg;
+//   border: 2px solid $darkgrey;
+//   border-radius: 200px;
+//   font-size: 14px;
+//   padding: 1px;
+//   margin:  5px;
+//   p {
+//     font-family: $font-tertiary;
+//     color: $darkgrey;
+//   }
+//   p:hover {
+//     background-color: $lightgrey; }
+//     p:active {
+//       background-color: $lightgrey;
+//     }
+//
+//   }
+//
+//   #previous {}
+//   #next {}
 
   /* #course-gallery1 {
   grid-column: 1;
   grid-row: 1;
-} */
+   } */
 /*<.........course galleries end.......> */

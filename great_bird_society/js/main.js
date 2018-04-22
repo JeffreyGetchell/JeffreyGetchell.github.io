@@ -60,6 +60,20 @@ $('.flyby-wrapper').slick({
   cssEase: 'linear'
 });
 
+// <<...............bird gallery slicks .........>>
+
+$('.gallery-wrapper').slick({
+  // dots:true,
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  speed: 700,
+  // autoplay: true,
+  // autoplaySpeed: 500,
+  fade: true,
+  cssEase: 'ease'
+});
+
 
 // site border is going to transition from a dark green color to a lighter
 //  green color, when user scrolls down below 150px or just below the main img.
@@ -69,100 +83,100 @@ $('.flyby-wrapper').slick({
 //  When the user clicks on the next button
 //  Add 1 to the count variable
 //  if count variable is greater than 7 then go back to 0.
-var imageNumber = 0;
+// var imageNumber = 0;
 
 // Write your pseudo code here!
-$('#next1').on('click', function() {
-  if (imageNumber < 7) {
-    imageNumber += 1;
-  } else {
-    imageNumber = 0;
-  }
-
-  console.log(imageNumber);
-
-  $('#courses1 img').hide();
-  $('#courses1 img').eq(imageNumber).show();
-});
+// $('#next1').on('click', function() {
+//   if (imageNumber < 7) {
+//     imageNumber += 1;
+//   } else {
+//     imageNumber = 0;
+//   }
+//
+//   console.log(imageNumber);
+//
+//   $('#courses1 img').hide();
+//   $('#courses1 img').eq(imageNumber).show();
+// });
 
 
 // Write your pseudo code here!
-$('#previous1').on('click', function() {
-  if (imageNumber > 0) {
-    imageNumber -= 1;
-  } else {
-    imageNumber = 7;
-  }
-
-  console.log(imageNumber);
-
-  $('#courses1 img').hide();
-  $('#courses1 img').eq(imageNumber).show();
-});
+// $('#previous1').on('click', function() {
+//   if (imageNumber > 0) {
+//     imageNumber -= 1;
+//   } else {
+//     imageNumber = 7;
+//   }
+//
+//   console.log(imageNumber);
+//
+//   $('#courses1 img').hide();
+//   $('#courses1 img').eq(imageNumber).show();
+// });
 
 // <<..............image gallery2............>>
-var imageNumber = 0;
+// var imageNumber = 0;
+//
+// // Write your pseudo code here!
+// $('#next2').on('click', function() {
+//   if (imageNumber < 7) {
+//     imageNumber += 1;
+//   } else {
+//     imageNumber = 0;
+//   }
+//
+//   console.log(imageNumber);
+//
+//   $('#courses2 img').hide();
+//   $('#courses2 img').eq(imageNumber).show();
+// });
+
 
 // Write your pseudo code here!
-$('#next2').on('click', function() {
-  if (imageNumber < 7) {
-    imageNumber += 1;
-  } else {
-    imageNumber = 0;
-  }
-
-  console.log(imageNumber);
-
-  $('#courses2 img').hide();
-  $('#courses2 img').eq(imageNumber).show();
-});
-
-
-// Write your pseudo code here!
-$('#previous2').on('click', function() {
-  if (imageNumber > 0) {
-    imageNumber -= 1;
-  } else {
-    imageNumber = 7;
-  }
-
-  console.log(imageNumber);
-
-  $('#courses2 img').hide();
-  $('#courses2 img').eq(imageNumber).show();
-});
+// $('#previous2').on('click', function() {
+//   if (imageNumber > 0) {
+//     imageNumber -= 1;
+//   } else {
+//     imageNumber = 7;
+//   }
+//
+//   console.log(imageNumber);
+//
+//   $('#courses2 img').hide();
+//   $('#courses2 img').eq(imageNumber).show();
+// });
 
 // <<..............image gallery3............>>
-var imageNumber = 0;
+// var imageNumber = 0;
 
 // Write your pseudo code here!
-$('#next3').on('click', function() {
-  if (imageNumber < 7) {
-    imageNumber += 1;
-  } else {
-    imageNumber = 0;
-  }
-
-  console.log(imageNumber);
-
-  $('#courses3 img').hide();
-  $('#courses3 img').eq(imageNumber).show();
-});
+// $('#next3').on('click', function() {
+//   if (imageNumber < 7) {
+//     imageNumber += 1;
+//   } else {
+//     imageNumber = 0;
+//   }
+//
+//   console.log(imageNumber);
+//
+//   $('#courses3 img').hide();
+//   $('#courses3 img').eq(imageNumber).show();
+// });
 
 
 // Write your pseudo code here!
-$('#previous3').on('click', function() {
-  if (imageNumber > 0) {
-    imageNumber -= 1;
-  } else {
-    imageNumber = 7;
-  }
-
-  console.log(imageNumber);
-
-  $('#courses3 img').hide();
-  $('#courses3 img').eq(imageNumber).show();
-});
+// $('#previous3').on('click', function() {
+//   if (imageNumber > 0) {
+//     imageNumber -= 1;
+//   } else {
+//     imageNumber = 7;
+//   }
+//
+//   console.log(imageNumber);
+//
+//   $('#courses3 img').hide();
+//   $('#courses3 img').eq(imageNumber).show();
+// });
 
 
 // <<.......partners.........>>
