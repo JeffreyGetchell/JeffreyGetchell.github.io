@@ -234,12 +234,10 @@ About Us
 ------------------------------------------- */
 #about-us
 {
-
   background-color: $darkgrey;
 }
 
 #about_wrap {
-
   width: 100%;
   // height: 80vh;
   margin: 8px 0px 8px 0px;
@@ -259,7 +257,6 @@ About Us
   // article p {
   //   width: 80%;
   // }
-
 }
 figure {
   //  background-image: url("../images/image_aboutus.jpg");
@@ -398,7 +395,10 @@ footer {
 
 
   #about_wrap {
-    height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+    // height: 90vh;
   }
 
 

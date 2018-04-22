@@ -387,6 +387,8 @@ footer {
     grid-column-gap: 5px; }
 
   #about_wrap {
-    height: 90vh; } }
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1%; } }
 
 /*# sourceMappingURL=style.css.map */
