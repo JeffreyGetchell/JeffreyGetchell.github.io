@@ -258,19 +258,6 @@ About Us
   //   width: 80%;
   // }
 }
-figure {
-  //  background-image: url("../images/image_aboutus.jpg");
-  //  background-size: cover;
-  //  background-repeat: no-repeat;
-  //  transition: all 1s ease;
-  //  width: 80%;
-  //  height: 500px;
-  //  border-radius: 200px;
-  //  margin-left: 10px;
-  //  opacity: .5;
-  // z-index: -100;
-  // display: block;
-}
 
 /* ----------------------------------------
 Footer
@@ -313,7 +300,7 @@ footer {
     }
 
   }
-  
+
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
